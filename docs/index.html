@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ヴァイスシュバルツ 大会結果 集計</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>ヴァイスシュバルツ 大会結果 集計</h1>
+  </div>
+</header>
+
+<div class="disclaimer">
+  このサイトは、手作業で見つけた大会結果を積み上げたものであり、全対戦の統計的サンプルではありません（上位のみが記録される傾向があります）。数値は参考値としてご覧ください。
+</div>
+
+<div class="error-banner" id="loadError"></div>
+
+<main>
+  <div class="filters">
+    <label>
+      主催区分
+      <select id="filterOrganizerType">
+        <option value="">すべて</option>
+        <option value="official">公式主催</option>
+        <option value="individual">個人主催</option>
+      </select>
+    </label>
+    <label>
+      大会形式
+      <select id="filterTournamentFormat">
+        <option value="">すべて</option>
+        <option value="single">シングル</option>
+        <option value="trio">トリオ</option>
+      </select>
+    </label>
+    <label>
+      期間
+      <select id="filterPeriod">
+        <option value="30">直近30日</option>
+        <option value="60" selected>直近60日</option>
+        <option value="90">直近90日</option>
+        <option value="365">直近365日</option>
+      </select>
+    </label>
+    <span id="resultCount"></span>
+  </div>
+
+  <div class="layout">
+    <div class="main-col">
+      <section class="panel">
+        <h2>メタゲーム</h2>
+        <p class="subtitle">タイルをクリックすると、そのデッキの詳細ページが新しいタブで開きます。</p>
+        <div class="tile-grid" id="tileGrid"></div>
+        <div class="empty-state" id="tileEmptyState">対象データなし</div>
+      </section>
+    </div>
+
+    <aside class="side-col">
+      <section class="panel">
+        <h2>最近の大会結果</h2>
+        <div id="recentGroups"></div>
+        <div class="empty-state" id="recentEmptyState">対象データなし</div>
+        <p class="table-note" id="recentTableNote"></p>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  データの追加は管理者専用のローカルツール(<code>/admin</code>)から行います。
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

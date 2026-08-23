@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大会結果 - ヴァイスシュバルツ 大会結果 集計</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <p><a href="index.html" class="back-link">← メタゲームに戻る</a></p>
+  </div>
+</header>
+
+<div class="error-banner" id="loadError"></div>
+
+<main>
+  <div class="empty-state" id="tournamentNotFound" style="display:none">対象データが見つかりませんでした。</div>
+
+  <section class="panel" id="tournamentHeaderSection"></section>
+
+  <section class="panel">
+    <h2>結果一覧</h2>
+    <div id="tournamentResultsSection"></div>
+  </section>
+</main>
+
+<footer>
+  データの追加は管理者専用のローカルツール(<code>/admin</code>)から行います。
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/tournament.js"></script>
+</body>
+</html>

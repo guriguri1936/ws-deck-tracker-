@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>管理ツール用ブックマークレット集(管理者専用・非公開)</title>
+<style>
+  body { font-family: sans-serif; max-width: 640px; margin: 40px auto; line-height: 1.7; color: #222; }
+  .warn { color: #b60000; font-weight: bold; }
+  .bookmarklet-link {
+    display: inline-block; padding: 10px 18px; background: #2f6fed; color: #fff;
+    border-radius: 6px; text-decoration: none; font-weight: bold; cursor: grab;
+  }
+  ol { padding-left: 1.4em; }
+  code { background: #f0f0f0; padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>管理ツール用ブックマークレット集</h1>
+<p class="warn">このページはローカル専用です。公開サイト(/docs)には含めないでください。</p>
+
+<h2>1. デッキログ貼り付けツール</h2>
+
+<p>
+  下のリンクを<strong>ブックマークバーにドラッグ&amp;ドロップ</strong>して登録してください。
+  クリックでは登録できません(実行されてしまいます)。
+</p>
+
+<p>
+  <a class="bookmarklet-link"
+     href="javascript:(function(){var i='wsdeck-bookmarklet-panel';var e=document.getElementById(i);if(e)e.remove();function gt(){var h=document.querySelector('h2');if(!h)return'';var t=h.textContent.trim();var m=t.match(/デッキ名「(.+)」のデッキ/);return m?m[1]:t;}function gc(){var items=document.querySelectorAll('.card-item');var cs=[];items.forEach(function(it){var img=it.querySelector('img.card-view-item');var n=it.querySelector('.card-controller-inner .num');if(!img||!n)return;var nm=(img.getAttribute('alt')||'').trim();var c=parseInt(n.textContent.trim(),10);if(!nm||!c)return;cs.push({name:nm,count:c});});return cs;}function bl(cs){return cs.map(function(c){return c.name+'\t'+c.count;}).join('\n');}function cp(t,b){navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='コピーしました';setTimeout(function(){b.textContent=o;},1500);},function(){window.alert('コピーに失敗しました。手動で選択してコピーしてください。');});}var dt=gt();var cs=gc();var tc=cs.reduce(function(s,c){return s+c.count;},0);var ct=bl(cs);var p=document.createElement('div');p.id=i;p.style.cssText=['position:fixed','top:12px','right:12px','z-index:999999','background:#fff','color:#222','border:2px solid #333','border-radius:8px','padding:12px 14px','font-size:13px','font-family:sans-serif','box-shadow:0 4px 12px rgba(0,0,0,0.3)','width:280px','line-height:1.5'].join(';');var xb=document.createElement('button');xb.textContent='×';xb.style.cssText='position:absolute;top:4px;right:8px;border:none;background:none;font-size:16px;cursor:pointer;color:#666';xb.addEventListener('click',function(){p.remove();});p.appendChild(xb);var tr=document.createElement('div');tr.style.cssText='margin-bottom:8px;padding-right:16px;';tr.textContent='デッキ名: '+(dt||'(取得できませんでした)');p.appendChild(tr);var tb=document.createElement('button');tb.textContent='デッキ名をコピー';tb.disabled=!dt;tb.style.cssText='display:block;width:100%;margin-bottom:10px;padding:6px;cursor:pointer;';tb.addEventListener('click',function(){cp(dt,tb);});p.appendChild(tb);var cr=document.createElement('div');cr.style.cssText='margin-bottom:8px;';cr.textContent='カード: 合計'+tc+'枚 / '+cs.length+'種類';p.appendChild(cr);var cb=document.createElement('button');cb.textContent='カードリストをコピー';cb.disabled=cs.length===0;cb.style.cssText='display:block;width:100%;padding:6px;cursor:pointer;';cb.addEventListener('click',function(){cp(ct,cb);});p.appendChild(cb);document.body.appendChild(p);})();"
+  >デッキログ貼り付けツール</a>
+</p>
+
+<h3>使い方</h3>
+<ol>
+  <li>上のリンクをブラウザのブックマークバーにドラッグして登録する。</li>
+  <li>デッキログ(decklog.bushiroad.com)のデッキ詳細ページ(例: <code>https://decklog.bushiroad.com/view/XXXXX</code>)を開く。</li>
+  <li>登録したブックマークレットをクリックすると、画面右上に小さなパネルが表示される。</li>
+  <li>「デッキ名をコピー」→ 管理ツールの<strong>デッキタイトル</strong>欄に貼り付け。</li>
+  <li>「カードリストをコピー」→ 管理ツールの各プレイヤー枠にある<strong>一括貼り付け</strong>欄に貼り付けて「解析してカード表に反映」を押す。</li>
+</ol>
+<p>
+  ※ カードリストにはクライマックスカードも含む全カードが入ります。クライマックス構成(袋/扉/風など)は
+  従来通り管理ツール側で手動選択してください。
+</p>
+<p>
+  ソースの可読版は <code>admin/bookmarklet/decklog-copy.js</code> にあります。修正する場合はそちらを直し、
+  このページの <code>javascript:</code> リンクにも同じ内容を反映してください。
+</p>
+
+<h2>2. 公式カードリスト貼り付けツール</h2>
+
+<p>
+  下のリンクを<strong>ブックマークバーにドラッグ&amp;ドロップ</strong>して登録してください。
+</p>
+
+<p>
+  <a class="bookmarklet-link"
+     href="javascript:(function(){var i='wscard-bookmarklet-panel';var e=document.getElementById(i);if(e){if(e._wscardInterval)clearInterval(e._wscardInterval);e.remove();}function gx(){var n=document.getElementById('mdl-card_name');var k=document.getElementById('mdl-kind');var l=document.getElementById('mdl-level');var im=document.getElementById('mdl-picture');if(!n||!k||!im)return null;var nm=n.textContent.trim();var kd=k.textContent.trim();if(!nm||!kd)return null;var lv=l?l.textContent.trim():'';var th=kd==='クライマックス'?'':lv;var iu=im.getAttribute('src')||'';return{key:nm+'|'+kd+'|'+lv,line:[nm,kd,th,iu].join(',')};}function hn(ta,nm){var ls=ta.value.split(/\r?\n/);for(var j=0;j<ls.length;j++){var ln=ls[j].trim();if(!ln)continue;var c=ln.indexOf(',');var en=(c===-1?ln:ln.slice(0,c)).trim();if(en===nm)return true;}return false;}function cp(t,b){navigator.clipboard.writeText(t).then(function(){var o=b.textContent;b.textContent='コピーしました';setTimeout(function(){b.textContent=o;},1500);},function(){window.alert('コピーに失敗しました。手動で選択してコピーしてください。');});}var p=document.createElement('div');p.id=i;p.style.cssText=['position:fixed','top:12px','right:12px','z-index:999999','background:#fff','color:#222','border:2px solid #333','border-radius:8px','padding:12px 14px','font-size:13px','font-family:sans-serif','box-shadow:0 4px 12px rgba(0,0,0,0.3)','width:320px','line-height:1.5'].join(';');var xb=document.createElement('button');xb.textContent='×';xb.style.cssText='position:absolute;top:4px;right:8px;border:none;background:none;font-size:16px;cursor:pointer;color:#666';xb.addEventListener('click',function(){clearInterval(p._wscardInterval);p.remove();});p.appendChild(xb);var iv=document.createElement('div');iv.style.cssText='margin-bottom:6px;padding-right:16px;';iv.textContent='カードをクリックするたびに自動で下のリストに追加されます。';p.appendChild(iv);var st=document.createElement('div');st.style.cssText='margin-bottom:6px;color:#2f6fed;min-height:16px;';p.appendChild(st);var ta=document.createElement('textarea');ta.rows=8;ta.style.cssText='width:100%;font-size:12px;margin-bottom:8px;box-sizing:border-box;';p.appendChild(ta);var nt=document.createElement('div');nt.style.cssText='font-size:11px;color:#666;margin-bottom:8px;';nt.textContent='※クライマックスは3列目(クライマックス種別)が空欄になります。袋/扉/風/本/ショット/宝/門/電源/枝/筒/チャンス/フォーカス/+2 のいずれかを手動で追記してください。';p.appendChild(nt);var cb=document.createElement('button');cb.textContent='全てコピー';cb.style.cssText='display:inline-block;width:48%;margin-right:4%;padding:6px;cursor:pointer;';cb.addEventListener('click',function(){cp(ta.value,cb);});p.appendChild(cb);var clb=document.createElement('button');clb.textContent='クリア';clb.style.cssText='display:inline-block;width:48%;padding:6px;cursor:pointer;';clb.addEventListener('click',function(){ta.value='';st.textContent='';});p.appendChild(clb);document.body.appendChild(p);var lk='';p._wscardInterval=setInterval(function(){var c=gx();if(!c||c.key===lk)return;lk=c.key;var cn=c.line.split(',')[0];if(hn(ta,cn)){st.textContent='「'+cn+'」は追加済みです';return;}ta.value=ta.value?ta.value+'\n'+c.line:c.line;st.textContent='「'+cn+'」を追加しました';},500);})();"
+  >カードリスト貼り付けツール</a>
+</p>
+
+<h3>使い方</h3>
+<ol>
+  <li>上のリンクをブラウザのブックマークバーにドラッグして登録する。</li>
+  <li>公式カードリスト(ws-tcg.com/cardlist/)を開き、登録したいカードをクリックしてモーダルを表示する。</li>
+  <li>登録したブックマークレットをクリックすると、画面右上に小さなパネルが表示される。</li>
+  <li>そのままカードを次々クリックしていくと、モーダルの内容が変わるたびに自動でパネル内のリストに1行ずつ追加されていく(同じカードは重複追加されない)。</li>
+  <li>「全てコピー」→ カードマスタ管理タブの<strong>一括登録</strong>欄に貼り付けて「解析して登録」を押す。</li>
+</ol>
+<p>
+  ※ クライマックスカードは、公式ページに「クライマックス種別(袋/扉/風など)」の情報が無いため、
+  該当欄が空欄で出力されます。貼り付け後、コピーしたテキスト上でクライマックスの行だけ手動で
+  種別を追記してから「解析して登録」を押してください。
+</p>
+<p>
+  ソースの可読版は <code>admin/bookmarklet/cardlist-copy.js</code> にあります。修正する場合はそちらを直し、
+  このページの <code>javascript:</code> リンクにも同じ内容を反映してください。
+</p>
+</body>
+</html>

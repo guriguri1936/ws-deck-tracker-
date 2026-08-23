@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大会結果 入力ツール(管理者専用・非公開)</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<datalist id="deckTitleList"></datalist>
+<header>
+  <h1>大会結果 入力ツール</h1>
+  <p class="warn">このツールはローカル専用です。公開サイト(/docs)には含めないでください。</p>
+  <nav class="tabs">
+    <button type="button" class="tab-btn active" data-tab="tournament">大会結果入力</button>
+    <button type="button" class="tab-btn" data-tab="images">代表画像マスタ管理</button>
+    <button type="button" class="tab-btn" data-tab="card-master">カードマスタ管理</button>
+  </nav>
+</header>
+
+<main>
+  <div id="tab-tournament" class="tab-panel active">
+    <section class="panel">
+      <h2>1. 既存データの読み込み</h2>
+      <input type="file" id="fileInput" accept="application/json">
+      <span id="loadStatus"></span>
+      <div id="tournamentCount">0件 読み込み済み</div>
+    </section>
+
+    <section class="panel">
+      <h2>読み込み済みの大会一覧</h2>
+      <div class="scroll-list-wrap">
+        <table class="list-table">
+          <thead>
+            <tr><th>日付</th><th>大会名</th><th>形式</th><th>結果件数</th><th></th></tr>
+          </thead>
+          <tbody id="tournamentListBody"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="tournamentListEmpty">読み込み済みの大会はありません</div>
+    </section>
+
+    <section class="panel" id="resultEditPanel" style="display:none">
+      <h2>結果の個別修正: <span id="resultEditEventLabel"></span></h2>
+      <button type="button" id="resultEditCloseBtn" class="btn-small">閉じる</button>
+      <div class="scroll-list-wrap">
+        <table class="list-table">
+          <thead>
+            <tr><th>順位</th><th>プレイヤー</th><th>デッキタイトル</th><th>カード種類数</th><th></th></tr>
+          </thead>
+          <tbody id="resultEditListBody"></tbody>
+        </table>
+      </div>
+      <div id="resultEditFormWrap" style="display:none"></div>
+    </section>
+
+    <section class="panel">
+      <h2>2. 大会情報</h2>
+      <div id="formError" class="form-error"></div>
+      <div class="form-grid">
+        <label>大会ID
+          <span class="id-row">
+            <input type="text" id="eventId" placeholder="未入力なら自動生成">
+            <button type="button" id="genIdBtn" class="btn-small">自動生成</button>
+          </span>
+        </label>
+        <label>大会名
+          <input type="text" id="eventName">
+        </label>
+        <label>日付
+          <input type="date" id="eventDate">
+        </label>
+        <label>主催区分
+          <select id="eventOrganizerType">
+            <option value="">選択してください</option>
+            <option value="official">公式主催</option>
+            <option value="individual">個人主催</option>
+          </select>
+        </label>
+        <label>大会形式
+          <select id="eventTournamentFormat">
+            <option value="single">シングル(個人戦)</option>
+            <option value="trio">トリオ(3on3チーム戦)</option>
+          </select>
+        </label>
+        <label>出典URL(任意)
+          <input type="text" id="eventSourceUrl" placeholder="https://x.com/...">
+        </label>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>3. 結果</h2>
+      <p class="subtitle">大会形式に応じて優勝・準優勝・TOP4の入力欄が自動的に切り替わります。TOP4は「+」で枠(トリオはチーム)を追加できます。</p>
+      <div id="resultTiersContainer"></div>
+    </section>
+
+    <section class="panel actions">
+      <button type="button" id="addTournamentBtn" class="btn-primary">この大会を追加</button>
+      <button type="button" id="downloadBtn" class="btn-primary">JSONをダウンロード</button>
+    </section>
+  </div>
+
+  <div id="tab-images" class="tab-panel">
+    <section class="panel">
+      <h2>1. 既存データの読み込み</h2>
+      <input type="file" id="imgFileInput" accept="application/json">
+      <span id="imgLoadStatus"></span>
+      <div id="imgCount">0件 登録済み</div>
+    </section>
+
+    <section class="panel">
+      <h2>2. 登録</h2>
+      <p class="subtitle">「タイトル + クライマックス構成」の組み合わせごとに、代表カード画像のURLを1回登録しておけば、大会結果入力のたびに画像URLを入力する必要がなくなります。</p>
+      <div id="imgFormError" class="form-error"></div>
+      <div class="form-grid">
+        <label>タイトル
+          <input type="text" id="imgTitle">
+        </label>
+        <label>画像URL
+          <input type="text" id="imgUrl" placeholder="https://...">
+        </label>
+      </div>
+      <div class="climax-picker">
+        <div class="climax-picker-label">クライマックス構成(任意・複数選択可)</div>
+        <div class="climax-options" id="imgClimaxOptions"></div>
+      </div>
+      <button type="button" id="imgAddBtn" class="btn-primary">登録</button>
+    </section>
+
+    <section class="panel">
+      <h2>3. 登録済み一覧</h2>
+      <div class="scroll-list-wrap">
+        <table class="list-table">
+          <thead>
+            <tr><th>画像</th><th>タイトル(クライマックス)</th><th>URL</th><th></th></tr>
+          </thead>
+          <tbody id="imgListBody"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="imgListEmpty">登録済みの画像はありません</div>
+      <button type="button" id="imgDownloadBtn" class="btn-primary">JSONをダウンロード</button>
+    </section>
+  </div>
+
+  <div id="tab-card-master" class="tab-panel">
+    <section class="panel">
+      <h2>1. 既存データの読み込み</h2>
+      <input type="file" id="cmFileInput" accept="application/json">
+      <span id="cmLoadStatus"></span>
+      <div id="cmCount">0件 登録済み</div>
+    </section>
+
+    <section class="panel">
+      <h2>2. 登録</h2>
+      <p class="subtitle">
+        カードの「種別」「レベル」「画像URL」を登録しておくと、公開サイトのデッキ詳細ページでカード名を種別→レベルの順に並べ替えたり、カード名にマウスオーバーすると画像を表示したりできるようになります。
+        種別を「クライマックス」にした場合は、大会結果入力タブでの一括貼り付け解析時にクライマックス構成の自動検出にも使われます。
+      </p>
+      <div id="cmFormError" class="form-error"></div>
+      <div class="form-grid">
+        <label>カード名
+          <input type="text" id="cmName">
+        </label>
+        <label>種別
+          <select id="cmType"></select>
+        </label>
+        <label id="cmLevelRow">レベル(クライマックス以外)
+          <input type="number" id="cmLevel" min="0">
+        </label>
+        <label id="cmClimaxTypeRow">クライマックス種別
+          <select id="cmClimaxType"></select>
+        </label>
+        <label>画像URL(任意)
+          <input type="text" id="cmUrl" placeholder="https://...">
+        </label>
+      </div>
+      <button type="button" id="cmAddBtn" class="btn-primary">登録</button>
+
+      <div class="bulk-wrap">
+        <label>一括登録(1行1件。タブまたはカンマ区切りで「カード名, 種別(キャラ/イベント/クライマックス), レベル(キャラ・イベントの場合)またはクライマックス種別(クライマックスの場合), 画像URL(任意)」。#で始まる行は無視)
+          <textarea id="cmBulkText" rows="6" placeholder="カード名A&#9;キャラ&#9;1&#9;https://...&#10;カード名B&#9;イベント&#9;0&#10;カード名C&#9;クライマックス&#9;宝"></textarea>
+        </label>
+        <button type="button" id="cmBulkAddBtn" class="btn-small">解析して登録</button>
+        <div class="bulk-status" id="cmBulkStatus"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>3. 登録済み一覧</h2>
+      <div class="scroll-list-wrap">
+        <table class="list-table">
+          <thead>
+            <tr><th>画像</th><th>カード名</th><th>種別</th><th>レベル</th><th>クライマックス種別</th><th></th></tr>
+          </thead>
+          <tbody id="cmListBody"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="cmListEmpty">登録済みのカードはありません</div>
+      <button type="button" id="cmDownloadBtn" class="btn-primary">JSONをダウンロード</button>
+    </section>
+  </div>
+</main>
+
+<script src="js/admin.js"></script>
+<script src="js/deck-images.js"></script>
+<script src="js/card-master.js"></script>
+</body>
+</html>
