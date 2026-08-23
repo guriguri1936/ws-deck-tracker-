@@ -489,12 +489,6 @@ td.rg-rank {
   padding-right: 6px;
 }
 
-.rg-player {
-  color: var(--muted);
-  text-align: right;
-  white-space: nowrap;
-}
-
 .rg-source-link {
   font-size: 11px;
   color: var(--muted);

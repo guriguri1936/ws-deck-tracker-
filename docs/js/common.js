@@ -122,7 +122,6 @@ function flatten(events) {
         sourceUrl: ev.sourceUrl || "",
         rank: Number(r.rank),
         team: r.team ? Number(r.team) : null,
-        player: r.player || "",
         deckTitleRaw: r.deckTitle,
         deckTitle: title,
         climax: climax,

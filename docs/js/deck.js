@@ -83,7 +83,6 @@ function renderLatestDecklist(featured, query, cardMap) {
     meta.appendChild(document.createTextNode("大会: " + latest.eventName));
   }
   var metaParts = [rankLabel(latest.rank), latest.date];
-  if (latest.player) metaParts.push(latest.player);
   meta.appendChild(document.createTextNode(" ・ " + metaParts.join(" ・ ")));
   section.appendChild(meta);
 
@@ -298,11 +297,6 @@ function renderDeckRecentList(deckResults, query) {
       tdEvent.appendChild(srcLink);
     }
     tr.appendChild(tdEvent);
-
-    var tdPlayer = document.createElement("td");
-    tdPlayer.className = "rg-player";
-    tdPlayer.textContent = r.player || "-";
-    tr.appendChild(tdPlayer);
 
     tbody.appendChild(tr);
   });

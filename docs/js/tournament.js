@@ -43,11 +43,6 @@ function renderTournamentResults(results, tournamentFormat) {
     tdDeck.appendChild(deckLink);
     tr.appendChild(tdDeck);
 
-    var tdPlayer = document.createElement("td");
-    tdPlayer.className = "rg-player";
-    tdPlayer.textContent = r.player || "-";
-    tr.appendChild(tdPlayer);
-
     tbody.appendChild(tr);
   });
   table.appendChild(tbody);

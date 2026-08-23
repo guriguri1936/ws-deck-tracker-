@@ -262,13 +262,6 @@ function createPlayerSlot(rank, team) {
   var header = document.createElement("div");
   header.className = "player-slot-header";
 
-  var playerLabel = document.createElement("label");
-  playerLabel.textContent = "プレイヤー名(任意)";
-  var playerInput = document.createElement("input");
-  playerInput.type = "text";
-  playerInput.className = "slot-player";
-  playerLabel.appendChild(playerInput);
-
   var titleLabel = document.createElement("label");
   titleLabel.textContent = "デッキタイトル";
   var titleInput = document.createElement("input");
@@ -278,7 +271,6 @@ function createPlayerSlot(rank, team) {
   titleInput.setAttribute("autocomplete", "off");
   titleLabel.appendChild(titleInput);
 
-  header.appendChild(playerLabel);
   header.appendChild(titleLabel);
   slot.appendChild(header);
 
@@ -429,7 +421,6 @@ function resultTiersHaveData() {
 /* player-slot 1個から result オブジェクトを組み立てる。エラーは呼び出し側から
    渡された errors 配列に文字列を追記する形で報告する(呼び出し側でまとめて判定する)。 */
 function extractResultFromSlot(slot, rank, team, slotLabel, errors) {
-  var player = slot.querySelector(".slot-player").value.trim();
   var deckTitle = slot.querySelector(".slot-deck-title").value.trim();
   var climax = [];
   slot.querySelectorAll(".slot-climax:checked").forEach(function (cb) {
@@ -454,7 +445,6 @@ function extractResultFromSlot(slot, rank, team, slotLabel, errors) {
 
   var result = {
     rank: rank,
-    player: player,
     deckTitle: deckTitle,
     climax: climax,
     cards: cards
@@ -466,7 +456,6 @@ function extractResultFromSlot(slot, rank, team, slotLabel, errors) {
 
 /* 既存の result オブジェクトの内容を player-slot の入力欄に読み込み直す(個別修正の編集フォーム用)。 */
 function fillPlayerSlot(slot, result) {
-  slot.querySelector(".slot-player").value = result.player || "";
   slot.querySelector(".slot-deck-title").value = result.deckTitle || "";
 
   var climax = Array.isArray(result.climax) ? result.climax : [];
@@ -695,10 +684,6 @@ function renderResultEditList() {
     var tdRank = document.createElement("td");
     tdRank.textContent = rankText;
     tr.appendChild(tdRank);
-
-    var tdPlayer = document.createElement("td");
-    tdPlayer.textContent = r.player || "-";
-    tr.appendChild(tdPlayer);
 
     var tdTitle = document.createElement("td");
     tdTitle.textContent = r.deckTitle || "-";
