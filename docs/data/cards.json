@@ -4247,5 +4247,33 @@
     "level": 0,
     "climaxType": null,
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kxx_we50/ksm_we50_02.png"
+  },
+  {
+    "name": "大切な指輪 アルベド",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se54/ovl_se54_32.png"
+  },
+  {
+    "name": "骸骨の魔法使い アインズ",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se54/ovl_se54_57.png"
+  },
+  {
+    "name": "精神操作の吐息 アウラ",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_106.png"
+  },
+  {
+    "name": "精密射撃 シズ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se51/ovl_se51_p01.png"
   }
 ]
