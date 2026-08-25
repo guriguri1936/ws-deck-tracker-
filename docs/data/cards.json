@@ -4170,5 +4170,82 @@
     "level": 0,
     "climaxType": null,
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_we51/imc_we51_e13s.png"
+  },
+  {
+    "name": "負けん気溢れる名調教師 アウラ",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_029.png"
+  },
+  {
+    "name": "第5階層の守護者 コキュートス",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_t08.png"
+  },
+  {
+    "name": "歓喜の嬌声 アルベド",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s62/ovl_s62_p02.png"
+  },
+  {
+    "name": "余裕の勝利 ルプスレギナ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_s99/ovl_s99_011.png"
+  },
+  {
+    "name": "魔導王側近 アルベド",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se51/ovl_se51_35.png"
+  },
+  {
+    "name": "ドレスアップ アルベド",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se51/ovl_se51_p02s.png"
+  },
+  {
+    "name": "らぶりー♡やみのま 神崎蘭子",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_we51/imc_we51_48.png"
+  },
+  {
+    "name": "シンデレラガール総選挙2026 島村卯月",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_we51/imc_we51_e11s.png"
+  },
+  {
+    "name": "ホラー大好き 小梅",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_w43/imc_w43_086.png"
+  },
+  {
+    "name": "クリア・ハッピーロール 一ノ瀬志希",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_we51/imc_we51_41.png"
+  },
+  {
+    "name": "むすんだ未来 うみ＆識",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kxx_we50/ksm_we50_02.png"
   }
 ]
