@@ -54,7 +54,10 @@ function pickFeaturedEntry(deckResults, query) {
 function renderLatestDecklist(featured, query, cardMap) {
   var heading = document.getElementById("decklistHeading");
   var section = document.getElementById("latestDecklistSection");
+  var toggleWrap = document.getElementById("decklistViewToggle");
   section.innerHTML = "";
+  toggleWrap.innerHTML = "";
+  toggleWrap.style.display = "none";
 
   var latest = featured.entry;
   heading.textContent = featured.isExplicit ? "この大会での入賞デッキリスト" : "最新の入賞デッキリスト";
@@ -113,6 +116,52 @@ function renderLatestDecklist(featured, query, cardMap) {
   section.appendChild(countLabel);
 
   var groups = groupCardsByTypeAndLevel(latest.cards, cardMap);
+
+  var bodyWrap = document.createElement("div");
+  section.appendChild(bodyWrap);
+
+  var mode = "text";
+  function renderBody() {
+    bodyWrap.innerHTML = "";
+    if (mode === "image") {
+      renderDecklistGroups(bodyWrap, groups, cardMap, renderDecklistImageGrid);
+    } else {
+      renderDecklistGroups(bodyWrap, groups, cardMap, renderDecklistUl);
+    }
+  }
+
+  var btnText = document.createElement("button");
+  btnText.type = "button";
+  btnText.className = "view-toggle-btn active";
+  btnText.textContent = "テキスト";
+  var btnImage = document.createElement("button");
+  btnImage.type = "button";
+  btnImage.className = "view-toggle-btn";
+  btnImage.textContent = "画像";
+  btnText.addEventListener("click", function () {
+    if (mode === "text") return;
+    mode = "text";
+    btnText.classList.add("active");
+    btnImage.classList.remove("active");
+    renderBody();
+  });
+  btnImage.addEventListener("click", function () {
+    if (mode === "image") return;
+    mode = "image";
+    btnImage.classList.add("active");
+    btnText.classList.remove("active");
+    renderBody();
+  });
+  toggleWrap.appendChild(btnText);
+  toggleWrap.appendChild(btnImage);
+  toggleWrap.style.display = "flex";
+
+  renderBody();
+}
+
+/* groupCardsByTypeAndLevelの結果を、種別/レベル(+クライマックス種別)の見出し付きで描画する。
+   1グループ分のカード配列の描画方法(テキストのul/画像グリッド)はrenderCardsで差し替え可能。 */
+function renderDecklistGroups(container, groups, cardMap, renderCards) {
   groups.forEach(function (group) {
     var count = group.subgroups
       ? group.subgroups.reduce(function (sum, sg) { return sum + sg.cards.length; }, 0)
@@ -120,20 +169,47 @@ function renderLatestDecklist(featured, query, cardMap) {
     var groupHeading = document.createElement("h3");
     groupHeading.className = "decklist-group-heading";
     groupHeading.textContent = group.label + " (" + count + ")";
-    section.appendChild(groupHeading);
+    container.appendChild(groupHeading);
 
     if (group.subgroups) {
       group.subgroups.forEach(function (subgroup) {
         var subHeading = document.createElement("h4");
         subHeading.className = "decklist-subgroup-heading";
         subHeading.textContent = subgroup.label + " (" + subgroup.cards.length + ")";
-        section.appendChild(subHeading);
-        section.appendChild(renderDecklistUl(subgroup.cards, cardMap));
+        container.appendChild(subHeading);
+        container.appendChild(renderCards(subgroup.cards, cardMap));
       });
     } else {
-      section.appendChild(renderDecklistUl(group.cards, cardMap));
+      container.appendChild(renderCards(group.cards, cardMap));
     }
   });
+}
+
+function renderDecklistImageGrid(cards, cardMap) {
+  var grid = document.createElement("div");
+  grid.className = "decklist-image-grid";
+  cards.forEach(function (c) {
+    var info = cardMap[normalizeCardName(c.name)];
+    var cell = document.createElement("div");
+    cell.className = "decklist-image-cell";
+    if (info && info.imageUrl) {
+      var img = document.createElement("img");
+      img.src = info.imageUrl;
+      img.alt = c.name;
+      cell.appendChild(img);
+    } else {
+      var placeholder = document.createElement("div");
+      placeholder.className = "decklist-image-placeholder";
+      placeholder.textContent = c.name;
+      cell.appendChild(placeholder);
+    }
+    var badge = document.createElement("span");
+    badge.className = "decklist-image-count";
+    badge.textContent = "×" + c.count;
+    cell.appendChild(badge);
+    grid.appendChild(cell);
+  });
+  return grid;
 }
 
 function renderDecklistUl(cards, cardMap) {
