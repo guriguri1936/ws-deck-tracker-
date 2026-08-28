@@ -22,9 +22,22 @@
     existing.remove();
   }
 
-  /* #js-cardListText 内の各カード項目から、名前・種類・レベル・画像URLを読み取る。
-     クライマックスは公式ページに「クライマックス種別(袋/扉/風など)」の情報がないため、
-     3列目(レベル相当の欄)は空欄で出力する。 */
+  /* クライマックスの「トリガー」欄はテキストではなくアイコン画像(_partimages/xxx.gif)で
+     表現されており、クライマックス種別を直接示すテキストは公式ページ上に存在しない。
+     ただしアイコンのファイル名がクライマックス種別と1:1に対応していることが分かったため、
+     判明した分だけこのマップで変換する(未判明の種別は従来通り空欄・手動入力)。 */
+  var TRIGGER_ICON_TO_CLIMAX_TYPE = {
+    choice: "枝",
+    focus: "フォーカス",
+    treasure: "宝",
+    standby: "電源",
+    gate: "門",
+    draw: "本",
+    salvage: "扉"
+  };
+
+  /* #js-cardListText 内の各カード項目から、名前・種類・レベル(クライマックスは種別)・
+     画像URLを読み取る。 */
   function extractAllCards() {
     var container = document.getElementById("js-cardListText");
     if (!container) return [];
@@ -52,17 +65,27 @@
       if (!kind) continue;
 
       var level = "";
+      var triggerIcon = "";
       var spec2Items = item.querySelectorAll(".card__spec2Lists .card__spec2Item");
       for (var b = 0; b < spec2Items.length; b++) {
         var dt2 = spec2Items[b].querySelector("dt");
         var dd2 = spec2Items[b].querySelector("dd");
-        if (dt2 && dd2 && dt2.textContent.trim() === "レベル") level = dd2.textContent.trim();
+        if (!dt2 || !dd2) continue;
+        var label2 = dt2.textContent.trim();
+        if (label2 === "レベル") {
+          level = dd2.textContent.trim();
+        } else if (label2 === "トリガー") {
+          var triggerImg = dd2.querySelector("img");
+          var triggerSrc = triggerImg ? (triggerImg.getAttribute("src") || "") : "";
+          var triggerMatch = triggerSrc.match(/([^/]+)\.gif$/i);
+          triggerIcon = triggerMatch ? triggerMatch[1] : "";
+        }
       }
 
       var imgEl = item.querySelector(".card__imgLink img");
       var imageUrl = imgEl ? (imgEl.getAttribute("src") || "") : "";
 
-      var third = kind === "クライマックス" ? "" : level;
+      var third = kind === "クライマックス" ? (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerIcon] || "") : level;
       results.push({ name: name, line: [name, kind, third, imageUrl].join(",") });
     }
     return results;
@@ -112,7 +135,7 @@
 
   var note = document.createElement("div");
   note.style.cssText = "font-size:11px;color:#666;margin-bottom:8px;";
-  note.textContent = "※クライマックスは3列目(クライマックス種別)が空欄になります。袋/扉/風/本/ショット/宝/門/電源/枝/筒/チャンス/フォーカス/+2 のいずれかを手動で追記してください。";
+  note.textContent = "※クライマックスの種別(3列目)は、枝/フォーカス/宝/電源/門/本/扉のみ自動判定します。それ以外(袋/風/ショット/筒/チャンス/+2)は空欄になるので手動で追記してください。";
   panel.appendChild(note);
 
   var rescanBtn = document.createElement("button");
