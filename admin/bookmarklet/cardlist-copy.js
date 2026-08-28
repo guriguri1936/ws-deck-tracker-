@@ -75,10 +75,19 @@
         if (label2 === "レベル") {
           level = dd2.textContent.trim();
         } else if (label2 === "トリガー") {
-          var triggerImg = dd2.querySelector("img");
-          var triggerSrc = triggerImg ? (triggerImg.getAttribute("src") || "") : "";
-          var triggerMatch = triggerSrc.match(/([^/]+)\.gif$/i);
-          triggerIcon = triggerMatch ? triggerMatch[1] : "";
+          /* 「電源」等は<dd>内に通常のソウルアイコン(soul.gif)が先に並び、その後ろに
+             実際の種別アイコンが続く場合がある。先頭の1枚だけでなく、マップに一致する
+             アイコンが見つかるまで全て確認する。 */
+          var triggerImgs = dd2.querySelectorAll("img");
+          for (var t = 0; t < triggerImgs.length; t++) {
+            var triggerSrc = triggerImgs[t].getAttribute("src") || "";
+            var triggerMatch = triggerSrc.match(/([^/]+)\.gif$/i);
+            var triggerCode = triggerMatch ? triggerMatch[1] : "";
+            if (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerCode]) {
+              triggerIcon = triggerCode;
+              break;
+            }
+          }
         }
       }
 
