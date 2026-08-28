@@ -1040,7 +1040,7 @@
     "type": "character",
     "level": 1,
     "climaxType": null,
-    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s90/all_s90_039.png"
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p08.png"
   },
   {
     "name": "誇り高き矜持 神琳",
@@ -1103,7 +1103,7 @@
     "type": "character",
     "level": 0,
     "climaxType": null,
-    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s90/all_s90_052.png"
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p10.png"
   },
   {
     "name": "束の間の休息 楓",
@@ -3252,7 +3252,7 @@
     "type": "character",
     "level": 0,
     "climaxType": null,
-    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s90/all_s90_079.png"
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p15.png"
   },
   {
     "name": "取り戻せし運命 神聖ユースティア",
@@ -4275,5 +4275,1111 @@
     "level": 0,
     "climaxType": null,
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/ovl_se51/ovl_se51_p01.png"
+  },
+  {
+    "name": "“ハロウィンの魔法”フリーレン＆フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_001.png"
+  },
+  {
+    "name": "旅の絆 フリーレン＆ヒンメル",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_002.png"
+  },
+  {
+    "name": "千年以上生きるエルフ フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_003.png"
+  },
+  {
+    "name": "一級魔法使い選抜試験 フリーレン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_004.png"
+  },
+  {
+    "name": "旅の日常 ハイター",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_005.png"
+  },
+  {
+    "name": "旅の日常 アイゼン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_006.png"
+  },
+  {
+    "name": "旅の日常 ヒンメル",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_007.png"
+  },
+  {
+    "name": "本当の意味 ヒンメル",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_008.png"
+  },
+  {
+    "name": "依頼と交換条件 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_009.png"
+  },
+  {
+    "name": "致命的な隙 フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_010.png"
+  },
+  {
+    "name": "乙女心もばっちり フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_011.png"
+  },
+  {
+    "name": "回復魔法を操る僧侶 ハイター",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_012.png"
+  },
+  {
+    "name": "パーティーの前衛 アイゼン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_013.png"
+  },
+  {
+    "name": "ダッハ伯爵家の宝剣 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_014.png"
+  },
+  {
+    "name": "旅立ちの予兆 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_015.png"
+  },
+  {
+    "name": "面倒な依頼 ヒンメル",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_016.png"
+  },
+  {
+    "name": "なでなでの対価 フリーレン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_017.png"
+  },
+  {
+    "name": "破滅の雷を放つ魔法",
+    "type": "event",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_018.png"
+  },
+  {
+    "name": "銀鉱石を探す魔法",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_019.png"
+  },
+  {
+    "name": "地獄の業火を出す魔法",
+    "type": "event",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_020.png"
+  },
+  {
+    "name": "結界の解除魔法",
+    "type": "event",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_021.png"
+  },
+  {
+    "name": "なでなでは一日十分まで ゼーリエ＆メトーデ",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_026.png"
+  },
+  {
+    "name": "“一級魔法使い”メトーデ",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_027.png"
+  },
+  {
+    "name": "“一級魔法使い”ラント",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_028.png"
+  },
+  {
+    "name": "“一級魔法使い”ゲナウ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_029.png"
+  },
+  {
+    "name": "「大陸魔法協会」の創始者 ゼーリエ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_030.png"
+  },
+  {
+    "name": "一級魔法使い試験の試験官 ゲナウ",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_031.png"
+  },
+  {
+    "name": "イメージの話 ユーベル",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_032.png"
+  },
+  {
+    "name": "待ち合わせ ラヴィーネ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_033.png"
+  },
+  {
+    "name": "待ち合わせ カンネ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_034.png"
+  },
+  {
+    "name": "“一級魔法使い”ユーベル",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_035.png"
+  },
+  {
+    "name": "猛攻 メトーデ",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_036.png"
+  },
+  {
+    "name": "“一級魔法使い”ヴィアベル",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_037.png"
+  },
+  {
+    "name": "幻影魔法の使い手 ラント",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_038.png"
+  },
+  {
+    "name": "“二級魔法使い”リヒター",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_039.png"
+  },
+  {
+    "name": "“三級魔法使い”ラオフェン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_040.png"
+  },
+  {
+    "name": "女の子みたいな可愛い夢 フランメ",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_041.png"
+  },
+  {
+    "name": "柄でもないこと ゲナウ",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_042.png"
+  },
+  {
+    "name": "“一級魔法使い”デンケン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_043.png"
+  },
+  {
+    "name": "完璧な複製体",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_044.png"
+  },
+  {
+    "name": "一級魔法使い試験の試験官 ゼンゼ",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_045.png"
+  },
+  {
+    "name": "人類最強 南の勇者",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_046.png"
+  },
+  {
+    "name": "黒金の翼を操る魔法",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_047.png"
+  },
+  {
+    "name": "未来を予知できる能力",
+    "type": "event",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_048.png"
+  },
+  {
+    "name": "弟子として フリーレン＆フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_051.png"
+  },
+  {
+    "name": "歩幅を合わせて フェルン＆シュタルク",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_052.png"
+  },
+  {
+    "name": "“せっかくのデート”シュタルク",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_053.png"
+  },
+  {
+    "name": "“せっかくのデート”フェルン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_054.png"
+  },
+  {
+    "name": "突然の帰還 フェルン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_055.png"
+  },
+  {
+    "name": "戦士の意地 シュタルク",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_056.png"
+  },
+  {
+    "name": "ご機嫌取り フェルン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_057.png"
+  },
+  {
+    "name": "師匠と同じ景色 シュタルク",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_058.png"
+  },
+  {
+    "name": "一緒に旅をする理由 フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_059.png"
+  },
+  {
+    "name": "デートのお誘い フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_060.png"
+  },
+  {
+    "name": "大事な物 フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_061.png"
+  },
+  {
+    "name": "美しい光景 シュタルク",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_062.png"
+  },
+  {
+    "name": "夜更かしの代償 シュタルク",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_063.png"
+  },
+  {
+    "name": "死闘 シュタルク",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_064.png"
+  },
+  {
+    "name": "作戦会議 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_065.png"
+  },
+  {
+    "name": "封魔鉱 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_066.png"
+  },
+  {
+    "name": "デートの準備 フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_067.png"
+  },
+  {
+    "name": "魔導具の収集 フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_068.png"
+  },
+  {
+    "name": "デート服 フェルン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_069.png"
+  },
+  {
+    "name": "もっと美味しい味 フリーレン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_070.png"
+  },
+  {
+    "name": "デートのお誘い シュタルク",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_071.png"
+  },
+  {
+    "name": "パーティーの前衛 シュタルク",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_072.png"
+  },
+  {
+    "name": "穏やかな時間",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_073.png"
+  },
+  {
+    "name": "“一級魔法使い”フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_076.png"
+  },
+  {
+    "name": "卓越した魔法技術 フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_077.png"
+  },
+  {
+    "name": "魔法の世界 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_078.png"
+  },
+  {
+    "name": "寄り道ばかりの旅路 フェルン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_079.png"
+  },
+  {
+    "name": "警戒態勢 フェルン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_080.png"
+  },
+  {
+    "name": "致命的な隙 フェルン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_081.png"
+  },
+  {
+    "name": "ヒンメルの自伝 フリーレン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_082.png"
+  },
+  {
+    "name": "借金の返済 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_083.png"
+  },
+  {
+    "name": "受け継ぐ心 フリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_084.png"
+  },
+  {
+    "name": "封魔鉱 フェルン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_085.png"
+  },
+  {
+    "name": "温泉のフリーレン",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_086.png"
+  },
+  {
+    "name": "静かなひととき フェルン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_087.png"
+  },
+  {
+    "name": "美しい光景 フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_088.png"
+  },
+  {
+    "name": "魔法の高み フェルン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_089.png"
+  },
+  {
+    "name": "二つの理由 フリーレン",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_090.png"
+  },
+  {
+    "name": "隕鉄鳥の捕獲 フリーレン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_091.png"
+  },
+  {
+    "name": "美しい光景 フリーレン",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_092.png"
+  },
+  {
+    "name": "高い買い物 フリーレン",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_093.png"
+  },
+  {
+    "name": "服の汚れをきれいさっぱり落とす魔法",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_094.png"
+  },
+  {
+    "name": "積み重ねた時間",
+    "type": "event",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_095.png"
+  },
+  {
+    "name": "早口言葉を噛まずに言えるようになる魔法",
+    "type": "event",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_096.png"
+  },
+  {
+    "name": "偶然の出会い",
+    "type": "climax",
+    "level": null,
+    "climaxType": "門",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_097.png"
+  },
+  {
+    "name": "十分な勝機",
+    "type": "climax",
+    "level": null,
+    "climaxType": "門",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_098.png"
+  },
+  {
+    "name": "ヒンメルの自伝",
+    "type": "climax",
+    "level": null,
+    "climaxType": "本",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_099.png"
+  },
+  {
+    "name": "封魔鉱の洞窟",
+    "type": "climax",
+    "level": null,
+    "climaxType": "本",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_100.png"
+  },
+  {
+    "name": "パーティーとして",
+    "type": "climax",
+    "level": null,
+    "climaxType": "枝",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_022.png"
+  },
+  {
+    "name": "魔法の高み",
+    "type": "climax",
+    "level": null,
+    "climaxType": "フォーカス",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_023.png"
+  },
+  {
+    "name": "立派な親代わり",
+    "type": "climax",
+    "level": null,
+    "climaxType": "フォーカス",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_024.png"
+  },
+  {
+    "name": "お姉さんの所業",
+    "type": "climax",
+    "level": null,
+    "climaxType": "枝",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_025.png"
+  },
+  {
+    "name": "戦局逆転",
+    "type": "climax",
+    "level": null,
+    "climaxType": "宝",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_049.png"
+  },
+  {
+    "name": "人間の時代",
+    "type": "climax",
+    "level": null,
+    "climaxType": "宝",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_050.png"
+  },
+  {
+    "name": "エトヴァス山の秘湯",
+    "type": "climax",
+    "level": null,
+    "climaxType": "電源",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_074.png"
+  },
+  {
+    "name": "初めてのデート",
+    "type": "climax",
+    "level": null,
+    "climaxType": "電源",
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_075.png"
+  },
+  {
+    "name": "想いを込めて 灯莉",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_003.png"
+  },
+  {
+    "name": "叩き上げのリリィ 秋日",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_006.png"
+  },
+  {
+    "name": "“アイアンサイド”聖恋",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_013.png"
+  },
+  {
+    "name": "グラン・エプレの双璧 叶星＆高嶺",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_014.png"
+  },
+  {
+    "name": "“アイアンサイド”佳世",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_017.png"
+  },
+  {
+    "name": "世界で一番 姫歌",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_018.png"
+  },
+  {
+    "name": "サプライズ 紅巴",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_019.png"
+  },
+  {
+    "name": "恐れと強さ 鈴夢",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_020.png"
+  },
+  {
+    "name": "可憐な振る舞い 高嶺",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_021.png"
+  },
+  {
+    "name": "“テンプルレギオン”日葵",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_022.png"
+  },
+  {
+    "name": "“血煙のリリィ”鶴紗",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_029.png"
+  },
+  {
+    "name": "底抜けのムードメーカー 梅",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_031.png"
+  },
+  {
+    "name": "絆の証明 神琳＆雨嘉",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_032.png"
+  },
+  {
+    "name": "“守護天使の契り”紫恵楽＆辰姫",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_033.png"
+  },
+  {
+    "name": "小さな勇気 雨嘉",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_034.png"
+  },
+  {
+    "name": "“ローエングリン”広夢",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_035.png"
+  },
+  {
+    "name": "“守護天使の契り”若菜＆天葉",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_036.png"
+  },
+  {
+    "name": "“守護天使の契り”天葉＆樟美",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_038.png"
+  },
+  {
+    "name": "“守護天使の契り”茜＆月詩",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_041.png"
+  },
+  {
+    "name": "シスターズ 雨嘉＆莉芬",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_042.png"
+  },
+  {
+    "name": "“ローエングリン”紗癒",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_045.png"
+  },
+  {
+    "name": "契りを越えて 梨璃＆夢結",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_050.png"
+  },
+  {
+    "name": "絢爛豪華 亜羅椰",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_053.png"
+  },
+  {
+    "name": "小さな勇気 二水",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_054.png"
+  },
+  {
+    "name": "導くリリィ 夢結",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_056.png"
+  },
+  {
+    "name": "オルトリンデ代行 祀",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_057.png"
+  },
+  {
+    "name": "“守護天使の契り”美鈴＆夢結",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_059.png"
+  },
+  {
+    "name": "探求者 ミリアム",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_061.png"
+  },
+  {
+    "name": "“守護天使の契り”百由＆ミリアム",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_063.png"
+  },
+  {
+    "name": "“氷帝”閑",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_064.png"
+  },
+  {
+    "name": "“守護天使の契り”日羽梨＆二水",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_066.png"
+  },
+  {
+    "name": "好戦的なアーセナル 百由",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_067.png"
+  },
+  {
+    "name": "大人のバケーション",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_068.png"
+  },
+  {
+    "name": "想いを乗せて 藍",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_072.png"
+  },
+  {
+    "name": "“ロネスネス”純",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_074.png"
+  },
+  {
+    "name": "“ヘオロットセインツ”椛",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_076.png"
+  },
+  {
+    "name": "みんながいるなら 瑤",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_078.png"
+  },
+  {
+    "name": "正義のリリィ 一葉",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_079.png"
+  },
+  {
+    "name": "帰る場所 恋花",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_080.png"
+  },
+  {
+    "name": "“ロネスネス”初",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_081.png"
+  },
+  {
+    "name": "ヘルヴォルを想う 藍",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_082.png"
+  },
+  {
+    "name": "一心同体 純＆初",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_084.png"
+  },
+  {
+    "name": "お料理担当 千香瑠",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_085.png"
+  },
+  {
+    "name": "“クエレブレ”緋紅",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_086.png"
+  },
+  {
+    "name": "レギオンの要 千香瑠",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_088.png"
+  },
+  {
+    "name": "楽しいことが待ってる 恋花",
+    "type": "character",
+    "level": 2,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_089.png"
+  },
+  {
+    "name": "バシャンドレの隊長 七保",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_092.png"
+  },
+  {
+    "name": "“クエレブレ”結爾",
+    "type": "character",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_093.png"
+  },
+  {
+    "name": "“クエレブレ”美岳",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_095.png"
+  },
+  {
+    "name": "“ヘオロットセインツ”紅",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_096.png"
+  },
+  {
+    "name": "ヘルヴォルの正義",
+    "type": "event",
+    "level": 1,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_097.png"
+  },
+  {
+    "name": "凛々しく咲く 神琳",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p07.png"
+  },
+  {
+    "name": "凛々しく咲く 鶴紗",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p09.png"
+  },
+  {
+    "name": "凛々しく咲く 二水",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p11.png"
+  },
+  {
+    "name": "“交わる３校の道”梨璃",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p13.png"
+  },
+  {
+    "name": "“言葉なく猛る”瑤",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p14.png"
+  },
+  {
+    "name": "“藍の一番長い日”藍",
+    "type": "character",
+    "level": 3,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p16.png"
+  },
+  {
+    "name": "戦場に舞う 梅",
+    "type": "character",
+    "level": 0,
+    "climaxType": null,
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/all_s127/all_s127_p17.png"
   }
 ]
