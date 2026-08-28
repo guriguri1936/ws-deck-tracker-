@@ -1,7 +1,7 @@
 /*
  * デッキログ(decklog.bushiroad.com)のデッキ詳細ページで実行するブックマークレット。
- * デッキ名とカードリストを抽出し、admin側の入力欄にそのまま貼り付けられる形式で
- * クリップボードにコピーするためのミニパネルをページ右上に表示する。
+ * ネオスタンダード区分(作品タイトル)とカードリストを抽出し、admin側の入力欄にそのまま
+ * 貼り付けられる形式でクリップボードにコピーするためのミニパネルをページ右上に表示する。
  *
  * このファイルは可読ソース。実際に配布するブックマークレットは
  * admin/bookmarklet/install.html にこの内容を1行に圧縮して埋め込んである。
@@ -13,12 +13,16 @@
   var existing = document.getElementById(EXISTING_PANEL_ID);
   if (existing) existing.remove();
 
-  function extractDeckTitle() {
-    var h2 = document.querySelector("h2");
-    if (!h2) return "";
-    var text = h2.textContent.trim();
-    var m = text.match(/デッキ名「(.+)」のデッキ/);
-    return m ? m[1] : text;
+  /* 「ネオスタンダード区分：〇〇」というラベル行の値(span)を抽出する。
+     このクラス名は他のラベル行(カラー区分など)と共通なので、テキスト内容で対象行を判定する。 */
+  function extractNeoStandardTitle() {
+    var rows = document.querySelectorAll(".preview-top-label-right");
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i].textContent.indexOf("ネオスタンダード区分") === -1) continue;
+      var span = rows[i].querySelector("span");
+      if (span) return span.textContent.trim();
+    }
+    return "";
   }
 
   function extractCards() {
@@ -50,7 +54,7 @@
     });
   }
 
-  var deckTitle = extractDeckTitle();
+  var title = extractNeoStandardTitle();
   var cards = extractCards();
   var totalCount = cards.reduce(function (sum, c) { return sum + c.count; }, 0);
   var cardListText = buildCardListText(cards);
@@ -72,14 +76,14 @@
 
   var titleRow = document.createElement("div");
   titleRow.style.cssText = "margin-bottom:8px;padding-right:16px;";
-  titleRow.textContent = "デッキ名: " + (deckTitle || "(取得できませんでした)");
+  titleRow.textContent = "タイトル: " + (title || "(取得できませんでした)");
   panel.appendChild(titleRow);
 
   var titleBtn = document.createElement("button");
-  titleBtn.textContent = "デッキ名をコピー";
-  titleBtn.disabled = !deckTitle;
+  titleBtn.textContent = "タイトルをコピー";
+  titleBtn.disabled = !title;
   titleBtn.style.cssText = "display:block;width:100%;margin-bottom:10px;padding:6px;cursor:pointer;";
-  titleBtn.addEventListener("click", function () { copyText(deckTitle, titleBtn); });
+  titleBtn.addEventListener("click", function () { copyText(title, titleBtn); });
   panel.appendChild(titleBtn);
 
   var cardRow = document.createElement("div");
