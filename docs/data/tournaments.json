@@ -6684,5 +6684,136 @@
       }
     ],
     "sourceUrl": "https://x.com/SSSS37336553297/status/2091476693416591731?s=20"
+  },
+  {
+    "id": "2026-08-29-001",
+    "eventName": "第38回リバティ杯",
+    "date": "2026-08-29",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉",
+          "宝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4Y-l2aQAAEN04?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4ZAz6aAAAL3nv?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4ZDd5aQAERQDH?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4ZZxAa4AAaRCl?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4ZaulaMAA1EXG?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4Zb3dboAAcAv4?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "GA文庫",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4Z18WawAAe3Up?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アイドルマスター",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4Z21raAAA3XeG?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "本"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4Z4DuaAAAXEoc?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4aRQebwAA2g9E?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4aSdoaEAAJceR?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "きんいろモザイク",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HQ4aTlaboAA2FBP?format=jpg&name=4096x4096"
+      }
+    ],
+    "sourceUrl": "https://x.com/WS_RevatyCup/status/2093638453728886804?s=20"
   }
 ]
