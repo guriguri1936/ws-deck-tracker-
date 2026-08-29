@@ -59,6 +59,19 @@ header h1::before {
 
 .back-link:hover { text-decoration: underline; }
 
+.feature-link {
+  display: inline-block;
+  color: #fff;
+  background: var(--accent-dark);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 14px;
+}
+
+.feature-link:hover { background: var(--accent); }
+
 .disclaimer {
   background: #fff4e6;
   border: 1px solid #ffd8a8;

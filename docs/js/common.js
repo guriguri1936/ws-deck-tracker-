@@ -268,6 +268,53 @@ function computeCardAdoption(filteredResults, deckLabel) {
   return { poolSize: poolSize, entries: entries };
 }
 
+/* 殿堂入りカードランキング用: デッキの種類を問わず、全記録を横断してカードの採用状況を集計する。
+   母数はcomputeCardAdoptionと同じくカードリストが記録されている記録のみ。 */
+function computeHallOfFameRanking(filteredResults) {
+  var pool = filteredResults.filter(function (r) {
+    return Array.isArray(r.cards) && r.cards.length > 0;
+  });
+  var poolSize = pool.length;
+  var recordsContaining = {};
+  var totalCopies = {};
+  var deckLabelSets = {};
+  var order = [];
+  pool.forEach(function (r) {
+    var seen = {};
+    r.cards.forEach(function (c) {
+      var name = normalizeCardName(c.name);
+      if (!name) return;
+      var count = Number(c.count) || 0;
+      if (!Object.prototype.hasOwnProperty.call(totalCopies, name)) {
+        totalCopies[name] = 0;
+        deckLabelSets[name] = {};
+        order.push(name);
+      }
+      totalCopies[name] += count;
+      if (count > 0 && !seen[name]) {
+        recordsContaining[name] = (recordsContaining[name] || 0) + 1;
+        deckLabelSets[name][r.deckLabel] = true;
+        seen[name] = true;
+      }
+    });
+  });
+  var entries = order.map(function (name) {
+    return {
+      name: name,
+      totalCopies: totalCopies[name] || 0,
+      recordsContaining: recordsContaining[name] || 0,
+      adoptionRate: safeDivide(recordsContaining[name] || 0, poolSize),
+      avgCopies: safeDivide(totalCopies[name] || 0, poolSize),
+      deckCount: Object.keys(deckLabelSets[name] || {}).length
+    };
+  });
+  entries.sort(function (a, b) {
+    if (b.totalCopies !== a.totalCopies) return b.totalCopies - a.totalCopies;
+    return b.deckCount - a.deckCount;
+  });
+  return { poolSize: poolSize, entries: entries };
+}
+
 /* ---------- rendering ---------- */
 
 function createTileImage(imageUrl, title) {
