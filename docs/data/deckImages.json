@@ -373,5 +373,79 @@
       "枝"
     ],
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/kms_w133/kms_w133_010s.png"
+  },
+  {
+    "title": "葬送のフリーレン",
+    "climax": [
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_027.png"
+  },
+  {
+    "title": "ダ・カーポ＆Dal Segno",
+    "climax": [
+      "宝",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w128/dc_w128_028.png"
+  },
+  {
+    "title": "【推しの子】",
+    "climax": [
+      "門"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/osk_s107/osk_s107_068.png"
+  },
+  {
+    "title": "アイドルマスター シャイニーカラーズ",
+    "climax": [
+      "門",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/isc_s110/isc_s110_101.png"
+  },
+  {
+    "title": "Rewrite",
+    "climax": [],
+    "imageUrl": ""
+  },
+  {
+    "title": "【推しの子】",
+    "climax": [
+      "扉",
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/o/osk_s133/osk_s133_030.png"
+  },
+  {
+    "title": "ダンダダン",
+    "climax": [
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ddd_s129/ddd_s129_003.png"
+  },
+  {
+    "title": "ダンダダン",
+    "climax": [
+      "宝",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/ddd_s129/ddd_s129_003.png"
+  },
+  {
+    "title": "葬送のフリーレン",
+    "climax": [
+      "フォーカス"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/s/sfn_s136/sfn_s136_004.png"
+  },
+  {
+    "title": "グランブルーファンタジー",
+    "climax": [
+      "扉",
+      "宝",
+      "門"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_027.png"
   }
 ]
