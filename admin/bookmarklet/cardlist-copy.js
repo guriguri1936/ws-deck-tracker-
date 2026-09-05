@@ -33,7 +33,8 @@
     standby: "電源",
     gate: "門",
     draw: "本",
-    salvage: "扉"
+    salvage: "扉",
+    bounce: "風"
   };
 
   /* #js-cardListText 内の各カード項目から、名前・種類・レベル(クライマックスは種別)・
@@ -66,6 +67,7 @@
 
       var level = "";
       var triggerIcon = "";
+      var plusTwoTrigger = false;
       var spec2Items = item.querySelectorAll(".card__spec2Lists .card__spec2Item");
       for (var b = 0; b < spec2Items.length; b++) {
         var dt2 = spec2Items[b].querySelector("dt");
@@ -77,24 +79,28 @@
         } else if (label2 === "トリガー") {
           /* 「電源」等は<dd>内に通常のソウルアイコン(soul.gif)が先に並び、その後ろに
              実際の種別アイコンが続く場合がある。先頭の1枚だけでなく、マップに一致する
-             アイコンが見つかるまで全て確認する。 */
+             アイコンが見つかるまで全て確認する。ソウルアイコンのみが2枚並ぶ場合は「+2」。 */
           var triggerImgs = dd2.querySelectorAll("img");
+          var soulCount = 0;
           for (var t = 0; t < triggerImgs.length; t++) {
             var triggerSrc = triggerImgs[t].getAttribute("src") || "";
             var triggerMatch = triggerSrc.match(/([^/]+)\.gif$/i);
             var triggerCode = triggerMatch ? triggerMatch[1] : "";
+            if (triggerCode === "soul") { soulCount++; continue; }
             if (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerCode]) {
               triggerIcon = triggerCode;
               break;
             }
           }
+          if (!triggerIcon && soulCount >= 2) plusTwoTrigger = true;
         }
       }
 
       var imgEl = item.querySelector(".card__imgLink img");
       var imageUrl = imgEl ? (imgEl.getAttribute("src") || "") : "";
 
-      var third = kind === "クライマックス" ? (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerIcon] || "") : level;
+      var climaxType = plusTwoTrigger ? "+2" : (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerIcon] || "");
+      var third = kind === "クライマックス" ? climaxType : level;
       results.push({ name: name, line: [name, kind, third, imageUrl].join(",") });
     }
     return results;
@@ -144,7 +150,7 @@
 
   var note = document.createElement("div");
   note.style.cssText = "font-size:11px;color:#666;margin-bottom:8px;";
-  note.textContent = "※クライマックスの種別(3列目)は、枝/フォーカス/宝/電源/門/本/扉のみ自動判定します。それ以外(袋/風/ショット/筒/チャンス/+2)は空欄になるので手動で追記してください。";
+  note.textContent = "※クライマックスの種別(3列目)は、枝/フォーカス/宝/電源/門/本/扉/風/+2のみ自動判定します。それ以外(袋/ショット/筒/チャンス)は空欄になるので手動で追記してください。";
   panel.appendChild(note);
 
   var rescanBtn = document.createElement("button");
