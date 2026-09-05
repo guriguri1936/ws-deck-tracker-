@@ -447,5 +447,21 @@
       "門"
     ],
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_027.png"
+  },
+  {
+    "title": "学園アイドルマスター",
+    "climax": [
+      "扉",
+      "門",
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gim_w124/gim_w124_p10.png"
+  },
+  {
+    "title": "アイドルマスター シャイニーカラーズ",
+    "climax": [
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/isc_s81/isc_s81_002.png"
   }
 ]
