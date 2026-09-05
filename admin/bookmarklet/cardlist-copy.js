@@ -34,7 +34,11 @@
     gate: "門",
     draw: "本",
     salvage: "扉",
-    bounce: "風"
+    bounce: "風",
+    shot: "ショット",
+    stock: "袋",
+    discovery: "筒",
+    chance: "チャンス"
   };
 
   /* #js-cardListText 内の各カード項目から、名前・種類・レベル(クライマックスは種別)・
@@ -150,7 +154,7 @@
 
   var note = document.createElement("div");
   note.style.cssText = "font-size:11px;color:#666;margin-bottom:8px;";
-  note.textContent = "※クライマックスの種別(3列目)は、枝/フォーカス/宝/電源/門/本/扉/風/+2のみ自動判定します。それ以外(袋/ショット/筒/チャンス)は空欄になるので手動で追記してください。";
+  note.textContent = "※クライマックスの種別(3列目)は自動判定します。判定できなかった場合は空欄になるので手動で追記してください。";
   panel.appendChild(note);
 
   var rescanBtn = document.createElement("button");
