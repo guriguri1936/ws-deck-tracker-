@@ -194,6 +194,38 @@ main {
   text-align: center;
 }
 
+.deck-list-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-end;
+  margin-bottom: 14px;
+}
+
+.deck-list-controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: var(--muted);
+  gap: 4px;
+}
+
+.deck-list-controls select,
+.deck-list-controls input {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.deck-list-controls select#deckTitleFilter {
+  min-width: 160px;
+}
+
+.deck-list-controls input#deckSearch {
+  min-width: 200px;
+}
+
 /* ---------- 2カラムレイアウト ---------- */
 
 .layout {

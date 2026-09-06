@@ -56,6 +56,26 @@
   <section class="panel">
     <h2>メタゲーム(すべてのデッキ)</h2>
     <p class="subtitle">タイルをクリックすると、そのデッキの詳細ページが新しいタブで開きます。</p>
+    <div class="deck-list-controls">
+      <label>
+        タイトル
+        <select id="deckTitleFilter">
+          <option value="">すべて</option>
+        </select>
+      </label>
+      <label>
+        検索
+        <input type="text" id="deckSearch" placeholder="デッキ名で検索">
+      </label>
+      <label>
+        並び替え
+        <select id="deckSort">
+          <option value="count">使用件数順</option>
+          <option value="championshipRate">優勝率順</option>
+          <option value="label">名前順</option>
+        </select>
+      </label>
+    </div>
     <div class="tile-grid" id="tileGrid"></div>
     <div class="empty-state" id="tileEmptyState">対象データなし</div>
   </section>
