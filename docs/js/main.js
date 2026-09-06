@@ -1,14 +1,8 @@
 "use strict";
 /* このページ固有の処理。共通処理は js/common.js を参照(先に読み込まれている前提)。 */
 
-var MIN_SAMPLE_HIGHLIGHT = 5;
 var RECENT_EVENTS_LIMIT = 8;
-var TILE_KEY_CARD_LIMIT = 3;
-
-/* 急上昇デッキの判定基準。「直近期間」の件数がこの値以上、かつ「その直前の同じ長さの期間」との
-   差がこの値以上あるデッキにバッジを付ける(件数が少ない集計初期段階でのノイズを避けるための閾値)。 */
-var TRENDING_MIN_COUNT = 2;
-var TRENDING_MIN_DELTA = 2;
+var TILE_DISPLAY_LIMIT = 15;
 
 var state = {
   events: [],
@@ -16,151 +10,8 @@ var state = {
   imageMap: {}
 };
 
-function getFilters() {
-  var periodDays = Number(document.getElementById("filterPeriod").value);
-  return {
-    organizerType: document.getElementById("filterOrganizerType").value,
-    tournamentFormat: document.getElementById("filterTournamentFormat").value,
-    periodDays: periodDays,
-    dateFrom: computeCutoffDate(periodDays)
-  };
-}
-
 function getFilteredResults(filters) {
   return getFilteredResultsFrom(state.flatResults, filters);
-}
-
-/* ---------- 集計 ---------- */
-
-function computeDeckSummaries(filteredResults) {
-  var denominator = filteredResults.length;
-  var groups = {};
-  filteredResults.forEach(function (r) {
-    var g = groups[r.deckLabel];
-    if (!g) {
-      g = { label: r.deckLabel, title: r.deckTitle, climax: r.climax, count: 0, wins: 0 };
-      groups[r.deckLabel] = g;
-    }
-    g.count += 1;
-    if (r.rank === 1) g.wins += 1;
-  });
-  var list = Object.keys(groups).map(function (label) {
-    var g = groups[label];
-    return {
-      label: g.label,
-      title: g.title,
-      climax: g.climax,
-      count: g.count,
-      usageRate: safeDivide(g.count, denominator),
-      wins: g.wins,
-      championshipRate: safeDivide(g.wins, g.count),
-      imageUrl: state.imageMap[deckImageKey(g.title, g.climax)] || ""
-    };
-  });
-  list.sort(function (a, b) { return b.count - a.count; });
-  return { denominator: denominator, list: list };
-}
-
-/* 「直近期間(現在のフィルタと同じ長さ)」と「その直前の同じ長さの期間」を比べて、
-   件数が伸びているデッキラベルの集合を返す(急上昇バッジ用)。組織区分・大会形式の絞り込みは
-   現在のフィルタに合わせるが、期間フィルタが「全期間」(periodDays未指定)の時は比較対象がないので
-   空を返す。 */
-function computeTrendingDeckLabels(flatResults, filters) {
-  if (!filters.periodDays) return {};
-
-  var currentFrom = filters.dateFrom;
-  var prevFrom = computeCutoffDate(filters.periodDays * 2);
-
-  var currentCounts = {};
-  var prevCounts = {};
-
-  flatResults.forEach(function (r) {
-    if (filters.organizerType && r.organizerType !== filters.organizerType) return;
-    if (filters.tournamentFormat && r.tournamentFormat !== filters.tournamentFormat) return;
-    if (r.date >= currentFrom) {
-      currentCounts[r.deckLabel] = (currentCounts[r.deckLabel] || 0) + 1;
-    } else if (r.date >= prevFrom) {
-      prevCounts[r.deckLabel] = (prevCounts[r.deckLabel] || 0) + 1;
-    }
-  });
-
-  var trending = {};
-  Object.keys(currentCounts).forEach(function (label) {
-    var current = currentCounts[label];
-    var prev = prevCounts[label] || 0;
-    if (current >= TRENDING_MIN_COUNT && (current - prev) >= TRENDING_MIN_DELTA) {
-      trending[label] = true;
-    }
-  });
-  return trending;
-}
-
-/* ---------- rendering: tile grid ---------- */
-
-function renderTileGrid(filteredResults, summary, filters) {
-  var grid = document.getElementById("tileGrid");
-  var empty = document.getElementById("tileEmptyState");
-  grid.innerHTML = "";
-
-  if (summary.denominator === 0 || summary.list.length === 0) {
-    empty.style.display = "block";
-    grid.style.display = "none";
-    return;
-  }
-  empty.style.display = "none";
-  grid.style.display = "grid";
-
-  var trending = computeTrendingDeckLabels(state.flatResults, filters);
-
-  summary.list.forEach(function (entry) {
-    var tile = document.createElement("a");
-    tile.className = "tile";
-    tile.href = buildDeckDetailUrl(entry.title, entry.climax, filters);
-    tile.appendChild(createTileImage(entry.imageUrl, entry.label));
-    if (trending[entry.label]) {
-      var badge = document.createElement("span");
-      badge.className = "tile-trending-badge";
-      badge.textContent = "急上昇";
-      tile.appendChild(badge);
-    }
-
-    var body = document.createElement("div");
-    body.className = "tile-body";
-
-    var titleEl = document.createElement("div");
-    titleEl.className = "tile-title";
-    titleEl.textContent = entry.label;
-    body.appendChild(titleEl);
-
-    var statsEl = document.createElement("div");
-    statsEl.className = "tile-stats";
-    var usageEl = document.createElement("span");
-    usageEl.className = "tile-usage";
-    usageEl.textContent = "使用率 " + formatPercent(entry.usageRate) + " (" + entry.count + ")";
-    statsEl.appendChild(usageEl);
-
-    var champEl = document.createElement("span");
-    champEl.className = "tile-champ";
-    if (entry.count < MIN_SAMPLE_HIGHLIGHT) champEl.classList.add("low-sample");
-    champEl.textContent = "優勝率 " + formatPercent(entry.championshipRate) + " (" + entry.wins + "/" + entry.count + ")";
-    statsEl.appendChild(champEl);
-    body.appendChild(statsEl);
-
-    var cardAdoption = computeCardAdoption(filteredResults, entry.label);
-    if (cardAdoption.entries.length > 0) {
-      var keyCards = document.createElement("ul");
-      keyCards.className = "tile-key-cards";
-      cardAdoption.entries.slice(0, TILE_KEY_CARD_LIMIT).forEach(function (c) {
-        var li = document.createElement("li");
-        li.textContent = c.name + " (" + formatPercent(c.adoptionRate) + ")";
-        keyCards.appendChild(li);
-      });
-      body.appendChild(keyCards);
-    }
-
-    tile.appendChild(body);
-    grid.appendChild(tile);
-  });
 }
 
 /* ---------- rendering: recent results (大会ごとにグループ化したコンパクトなリスト) ---------- */
@@ -267,9 +118,12 @@ function renderRecentGroups(filteredResults, filters) {
 function renderAll() {
   var filters = getFilters();
   var filteredResults = getFilteredResults(filters);
-  var summary = computeDeckSummaries(filteredResults);
+  var summary = computeDeckSummaries(filteredResults, state.imageMap);
 
-  renderTileGrid(filteredResults, summary, filters);
+  renderTileGrid(state.flatResults, filteredResults, summary, filters, {
+    limit: TILE_DISPLAY_LIMIT,
+    moreLinkHref: buildMetagameUrl(filters)
+  });
   renderRecentGroups(filteredResults, filters);
 
   document.getElementById("resultCount").textContent = filteredResults.length + "件のデッキ記録";

@@ -269,6 +269,25 @@ main {
   outline: 2px solid var(--accent);
 }
 
+.tile-more {
+  display: none;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.tile-more-link {
+  display: inline-block;
+  color: #fff;
+  background: var(--accent-dark);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 16px;
+}
+
+.tile-more-link:hover { background: var(--accent); }
+
 .tile-image {
   width: 100%;
   aspect-ratio: 5 / 7;
