@@ -15,13 +15,17 @@ var resultEditState = { tournamentIdx: null };
 
 /* ---------- bulk paste parser ---------- */
 
+/* タブ区切り(name: /^(.+?)[\t　]+(\d+)$/)は、デッキログ貼り付けツール(decklog-copy.js)が
+   常に「カード名+タブ+枚数」の順で出力する正規の形式。カード名が数字で始まる場合(例:
+   「365 Days 藤島 慈」)に、汎用的な「数字先頭+空白」パターンが先に誤マッチしないよう、
+   このタブ区切りパターンを数字先頭パターンより先に判定する。 */
 var BULK_PATTERNS = [
   { re: /^(\d+)\s*[xX×]\s*(.+)$/, countFirst: true },
   { re: /^(.+?)\s*[xX×]\s*(\d+)$/, countFirst: false },
   { re: /^(\d+)\s*枚\s*(.+)$/, countFirst: true },
   { re: /^(.+?)\s*(\d+)\s*枚$/, countFirst: false },
-  { re: /^(\d+)[\s\t　]+(.+)$/, countFirst: true },
-  { re: /^(.+?)[\t　]+(\d+)$/, countFirst: false }
+  { re: /^(.+?)[\t　]+(\d+)$/, countFirst: false },
+  { re: /^(\d+)[\s\t　]+(.+)$/, countFirst: true }
 ];
 
 function normalizeName(name) {
