@@ -9208,5 +9208,1001 @@
       }
     ],
     "sourceUrl": "https://x.com/taidahai/status/2096536181790199871?s=20"
+  },
+  {
+    "id": "2026-09-12-001",
+    "eventName": "第14回BestTitleCup",
+    "date": "2026-09-12",
+    "organizerType": "individual",
+    "tournamentFormat": "single",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSAShvdaEAAGyjA?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "扉",
+          "門"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSAShvYakAA9Yj8?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSAShvWbEAAAnYe?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "転生したらスライムだった件",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSAShvWbcAA9YD9?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/BTC_4dmin/status/2098697829619548554?s=20"
+  },
+  {
+    "id": "2026-09-12-002",
+    "eventName": "第93回ふらめ杯",
+    "date": "2026-09-12",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "アイドルマスター ミリオンライブ！",
+        "climax": [
+          "扉",
+          "フォーカス"
+        ],
+        "cards": [
+          {
+            "name": "未来飛行 春日未来",
+            "count": 4
+          },
+          {
+            "name": "2人だけの世界へ ver.MK 菊地 真",
+            "count": 1
+          },
+          {
+            "name": "STEREOPHONIC ISOTONIC ロコ",
+            "count": 2
+          },
+          {
+            "name": "死の猛攻 田中琴葉",
+            "count": 3
+          },
+          {
+            "name": "梅雨限定スタイル 松田亜利沙",
+            "count": 3
+          },
+          {
+            "name": "わくわくがいっぱい！ ver.MH 星井美希",
+            "count": 3
+          },
+          {
+            "name": "夢色トレイン 箱崎星梨花",
+            "count": 4
+          },
+          {
+            "name": "憧れの先生 桜守歌織",
+            "count": 4
+          },
+          {
+            "name": "エレガント・リング 四条貴音",
+            "count": 1
+          },
+          {
+            "name": "I Want 天海春香",
+            "count": 2
+          },
+          {
+            "name": "自転車 菊地 真",
+            "count": 4
+          },
+          {
+            "name": "ALRIGHT* 萩原雪歩",
+            "count": 1
+          },
+          {
+            "name": "Liar's good bye 秋月律子",
+            "count": 2
+          },
+          {
+            "name": "蒼い鳥 如月千早",
+            "count": 4
+          },
+          {
+            "name": "覚醒アイテム～Princess～",
+            "count": 2
+          },
+          {
+            "name": "ペールライト・オーシャン 春日未来",
+            "count": 1
+          },
+          {
+            "name": "スパークドリンク",
+            "count": 1
+          },
+          {
+            "name": "ピコピコIIKO! インベーダー",
+            "count": 4
+          },
+          {
+            "name": "ABSOLUTE RUN!!!",
+            "count": 4
+          }
+        ],
+        "team": 1
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [
+          {
+            "name": "スプラッシュ・マイ・ラブ! 佐久間まゆ",
+            "count": 1
+          },
+          {
+            "name": "フォーリン・パラダイス 島村卯月",
+            "count": 4
+          },
+          {
+            "name": "艶猫娘々 前川みく",
+            "count": 1
+          },
+          {
+            "name": "甘いひととき 槙原志保",
+            "count": 1
+          },
+          {
+            "name": "ラブリンク・フラワー 椎名法子",
+            "count": 4
+          },
+          {
+            "name": "ようこそぜいたくパーティー 双葉 杏",
+            "count": 2
+          },
+          {
+            "name": "憧れのドーリー・ロマンス 月宮 雅",
+            "count": 2
+          },
+          {
+            "name": "私とあなたの楽園 緒方智絵里",
+            "count": 4
+          },
+          {
+            "name": "謹賀のお出迎え 道明寺歌鈴",
+            "count": 1
+          },
+          {
+            "name": "アップル☆カーニバル 辻野あかり",
+            "count": 2
+          },
+          {
+            "name": "クレセント・ウサミン 安部菜々",
+            "count": 2
+          },
+          {
+            "name": "わたし色の羽根で 白菊ほたる",
+            "count": 3
+          },
+          {
+            "name": "清澄のエッセンス 一ノ瀬志希",
+            "count": 2
+          },
+          {
+            "name": "シンデレラガール総選挙2026 安部菜々",
+            "count": 3
+          },
+          {
+            "name": "らぶりー♡やみのま 神崎蘭子",
+            "count": 4
+          },
+          {
+            "name": "ホワイトスノードール 白坂小梅",
+            "count": 3
+          },
+          {
+            "name": "ラビューダ♡トライアングル",
+            "count": 3
+          },
+          {
+            "name": "最高の舞台",
+            "count": 1
+          },
+          {
+            "name": "Star!!",
+            "count": 1
+          },
+          {
+            "name": "Palette",
+            "count": 1
+          },
+          {
+            "name": "ココカラミライヘ！",
+            "count": 1
+          },
+          {
+            "name": "Stage Bye Stage",
+            "count": 4
+          }
+        ],
+        "team": 1
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSAhDFPbcAAiCFa?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSAgyJXasAAy_Bf?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "扉",
+          "門"
+        ],
+        "cards": [
+          {
+            "name": "オンステージ！ ベアトリス",
+            "count": 1
+          },
+          {
+            "name": "可憐で壮健な姉メイド ラム",
+            "count": 2
+          },
+          {
+            "name": "“その人”を待って ベアトリス",
+            "count": 4
+          },
+          {
+            "name": "青色髪のメイド レム",
+            "count": 1
+          },
+          {
+            "name": "オンステージ！ レム",
+            "count": 1
+          },
+          {
+            "name": "暗闇の中、広がる光 エミリア",
+            "count": 1
+          },
+          {
+            "name": "パジャマパーティー レム",
+            "count": 1
+          },
+          {
+            "name": "女王の風格 プリシラ",
+            "count": 1
+          },
+          {
+            "name": "魔女教創設者の一人 ジュース",
+            "count": 1
+          },
+          {
+            "name": "バスタイム！ エミリア",
+            "count": 1
+          },
+          {
+            "name": "今は遠き幸福な時間 ベアトリス",
+            "count": 1
+          },
+          {
+            "name": "Happy Christmas レム",
+            "count": 4
+          },
+          {
+            "name": "たまには息抜き レム",
+            "count": 1
+          },
+          {
+            "name": "優しいお姉ちゃん エミリア",
+            "count": 4
+          },
+          {
+            "name": "オンステージ！ エミリア",
+            "count": 4
+          },
+          {
+            "name": "Happy Christmas ラム",
+            "count": 4
+          },
+          {
+            "name": "ミニラム",
+            "count": 1
+          },
+          {
+            "name": "支えてくれた存在 レム",
+            "count": 1
+          },
+          {
+            "name": "予想外の切り替えし エミリア",
+            "count": 4
+          },
+          {
+            "name": "ハロウィンキョンシー レム",
+            "count": 4
+          },
+          {
+            "name": "四百年越しの選択",
+            "count": 4
+          },
+          {
+            "name": "苦しい戦況",
+            "count": 4
+          }
+        ],
+        "team": 2
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アイドルマスター ミリオンライブ！",
+        "climax": [
+          "扉",
+          "フォーカス"
+        ],
+        "cards": [
+          {
+            "name": "未来飛行 春日未来",
+            "count": 4
+          },
+          {
+            "name": "2人だけの世界へ ver.MK 菊地 真",
+            "count": 1
+          },
+          {
+            "name": "都会の風に吹かれて 白石 紬",
+            "count": 1
+          },
+          {
+            "name": "STEREOPHONIC ISOTONIC ロコ",
+            "count": 2
+          },
+          {
+            "name": "Celebr@tion! 春日未来",
+            "count": 2
+          },
+          {
+            "name": "梅雨限定スタイル 松田亜利沙",
+            "count": 3
+          },
+          {
+            "name": "わくわくがいっぱい！ ver.MH 星井美希",
+            "count": 3
+          },
+          {
+            "name": "夢色トレイン 箱崎星梨花",
+            "count": 4
+          },
+          {
+            "name": "憧れの先生 桜守歌織",
+            "count": 4
+          },
+          {
+            "name": "エレガント・リング 四条貴音",
+            "count": 1
+          },
+          {
+            "name": "I Want 天海春香",
+            "count": 2
+          },
+          {
+            "name": "自転車 菊地 真",
+            "count": 3
+          },
+          {
+            "name": "ALRIGHT* 萩原雪歩",
+            "count": 1
+          },
+          {
+            "name": "Liar's good bye 秋月律子",
+            "count": 4
+          },
+          {
+            "name": "蒼い鳥 如月千早",
+            "count": 3
+          },
+          {
+            "name": "超々∞MUGENDAI 春日未来",
+            "count": 2
+          },
+          {
+            "name": "ペールライト・オーシャン 春日未来",
+            "count": 1
+          },
+          {
+            "name": "超々∞MUGENDAI エミリー",
+            "count": 1
+          },
+          {
+            "name": "ピコピコIIKO! インベーダー",
+            "count": 4
+          },
+          {
+            "name": "ABSOLUTE RUN!!!",
+            "count": 4
+          }
+        ],
+        "team": 2
+      },
+      {
+        "rank": 3,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [
+          {
+            "name": "ひげ猫団 鴎",
+            "count": 1
+          },
+          {
+            "name": "“向日葵の種” しろは",
+            "count": 2
+          },
+          {
+            "name": "“夏休みをもう一度”うみ",
+            "count": 4
+          },
+          {
+            "name": "“夏の始まり”しろは",
+            "count": 1
+          },
+          {
+            "name": "“向日葵の種” 七海",
+            "count": 2
+          },
+          {
+            "name": "“未来の思い出” 七海",
+            "count": 2
+          },
+          {
+            "name": "“昨晩はお楽しみでしたか？”蒼",
+            "count": 1
+          },
+          {
+            "name": "“塗り替えていた記憶”美希",
+            "count": 1
+          },
+          {
+            "name": "“夏空に並んで” しろは＆蒼",
+            "count": 1
+          },
+          {
+            "name": "戻れない夏 しろは",
+            "count": 1
+          },
+          {
+            "name": "“得意料理はチャーハン” うみ",
+            "count": 3
+          },
+          {
+            "name": "包まれる時間 しろは＆うみ",
+            "count": 1
+          },
+          {
+            "name": "“海を見つめる少女”しろは",
+            "count": 4
+          },
+          {
+            "name": "むすんだ未来 うみ＆識",
+            "count": 3
+          },
+          {
+            "name": "“鉄塔のスナイパー”美希",
+            "count": 2
+          },
+          {
+            "name": "“海賊船と少女”鴎",
+            "count": 4
+          },
+          {
+            "name": "「視て」しまった「未来」 しろは",
+            "count": 2
+          },
+          {
+            "name": "“ポケットの中の思い出” うみ",
+            "count": 3
+          },
+          {
+            "name": "ここからまた始まる しろは",
+            "count": 4
+          },
+          {
+            "name": "一緒に過ごす夏",
+            "count": 4
+          },
+          {
+            "name": "伸ばした手の先には",
+            "count": 4
+          }
+        ],
+        "team": 3
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [
+          {
+            "name": "スプラッシュ・マイ・ラブ! 佐久間まゆ",
+            "count": 1
+          },
+          {
+            "name": "フォーリン・パラダイス 島村卯月",
+            "count": 4
+          },
+          {
+            "name": "艶猫娘々 前川みく",
+            "count": 1
+          },
+          {
+            "name": "ラブリンク・フラワー 椎名法子",
+            "count": 4
+          },
+          {
+            "name": "ようこそぜいたくパーティー 双葉 杏",
+            "count": 1
+          },
+          {
+            "name": "憧れのドーリー・ロマンス 月宮 雅",
+            "count": 2
+          },
+          {
+            "name": "純白の聖女 望月 聖",
+            "count": 1
+          },
+          {
+            "name": "私とあなたの楽園 緒方智絵里",
+            "count": 3
+          },
+          {
+            "name": "巡り巡るシンフォニー 水本ゆかり",
+            "count": 3
+          },
+          {
+            "name": "謹賀のお出迎え 道明寺歌鈴",
+            "count": 1
+          },
+          {
+            "name": "ひみつの森のマイネ・リーベ 高森藍子",
+            "count": 4
+          },
+          {
+            "name": "小日向 美穂",
+            "count": 1
+          },
+          {
+            "name": "アップル☆カーニバル 辻野あかり",
+            "count": 2
+          },
+          {
+            "name": "クレセント・ウサミン 安部菜々",
+            "count": 1
+          },
+          {
+            "name": "シンデレラガール総選挙2026 島村卯月",
+            "count": 1
+          },
+          {
+            "name": "シンデレラガール総選挙2026 安部菜々",
+            "count": 2
+          },
+          {
+            "name": "ホラー大好き 小梅",
+            "count": 2
+          },
+          {
+            "name": "楽しい今を、未知の明日を 神谷奈緒",
+            "count": 1
+          },
+          {
+            "name": "ハイブリッド・スペクトル 二宮飛鳥",
+            "count": 4
+          },
+          {
+            "name": "ラビューダ♡トライアングル",
+            "count": 3
+          },
+          {
+            "name": "Love∞Destiny",
+            "count": 4
+          },
+          {
+            "name": "Stage Bye Stage",
+            "count": 4
+          }
+        ],
+        "team": 3
+      },
+      {
+        "rank": 3,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "本"
+        ],
+        "cards": [
+          {
+            "name": "Happy Valentines Day 有馬かな",
+            "count": 3
+          },
+          {
+            "name": "Happy Halloween 黒川あかね",
+            "count": 4
+          },
+          {
+            "name": "私の生きる道 有馬かな",
+            "count": 1
+          },
+          {
+            "name": "Happy Autumn アクア",
+            "count": 1
+          },
+          {
+            "name": "隠してきた激情 ルビー",
+            "count": 4
+          },
+          {
+            "name": "白の花束と 黒川あかね",
+            "count": 1
+          },
+          {
+            "name": "トップスターの悩み 不知火フリル",
+            "count": 2
+          },
+          {
+            "name": "出演交渉 アクア",
+            "count": 2
+          },
+          {
+            "name": "\"嘘\"の再現 黒川あかね",
+            "count": 1
+          },
+          {
+            "name": "決裂 黒川あかね",
+            "count": 1
+          },
+          {
+            "name": "夢に向かって ルビー",
+            "count": 2
+          },
+          {
+            "name": "気まずい状況 黒川あかね",
+            "count": 2
+          },
+          {
+            "name": "宮崎観光 アクア&黒川あかね",
+            "count": 1
+          },
+          {
+            "name": "Happy Valentines Day 黒川あかね",
+            "count": 4
+          },
+          {
+            "name": "主演の行方 アクア",
+            "count": 3
+          },
+          {
+            "name": "人気女優 黒川あかね",
+            "count": 4
+          },
+          {
+            "name": "外連味ある演技 不知火フリル",
+            "count": 4
+          },
+          {
+            "name": "個人間オーディション",
+            "count": 2
+          },
+          {
+            "name": "全てを見抜く瞳",
+            "count": 4
+          },
+          {
+            "name": "トップスター",
+            "count": 4
+          }
+        ],
+        "team": 3
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [
+          {
+            "name": "気弱な階層守護者 マーレ",
+            "count": 1
+          },
+          {
+            "name": "負けん気溢れる名調教師 アウラ",
+            "count": 1
+          },
+          {
+            "name": "アインズ・ウール・ゴウン魔導国君主 アインズ",
+            "count": 1
+          },
+          {
+            "name": "絶対なる忠誠 アルベド",
+            "count": 1
+          },
+          {
+            "name": "驚きの事実 シャルティア",
+            "count": 1
+          },
+          {
+            "name": "慈悲深き純白の悪魔 アルベド",
+            "count": 4
+          },
+          {
+            "name": "お別れの時 シズ",
+            "count": 1
+          },
+          {
+            "name": "惜しみない助力 アインズ",
+            "count": 1
+          },
+          {
+            "name": "偽装工作 セバス",
+            "count": 2
+          },
+          {
+            "name": "謁見中の軽口 シャルティア",
+            "count": 2
+          },
+          {
+            "name": "至高の中の頂点 アインズ",
+            "count": 1
+          },
+          {
+            "name": "歓喜の嬌声 アルベド",
+            "count": 1
+          },
+          {
+            "name": "王の隣 アルベド",
+            "count": 4
+          },
+          {
+            "name": "隠されし力 デミウルゴス",
+            "count": 2
+          },
+          {
+            "name": "精密射撃 シズ",
+            "count": 3
+          },
+          {
+            "name": "方針会議 デミウルゴス",
+            "count": 2
+          },
+          {
+            "name": "死者の大魔法使い アインズ",
+            "count": 4
+          },
+          {
+            "name": "The world is all yours. アルベド",
+            "count": 3
+          },
+          {
+            "name": "守護者の本質 アルベド",
+            "count": 1
+          },
+          {
+            "name": "貴方だけに捧ぐ アルベド",
+            "count": 4
+          },
+          {
+            "name": "“至高の四十一人”タブラ・スマラグディナ",
+            "count": 2
+          },
+          {
+            "name": "魔導王の玉座",
+            "count": 4
+          },
+          {
+            "name": "全てを御身に",
+            "count": 4
+          }
+        ],
+        "team": 4
+      },
+      {
+        "rank": 3,
+        "deckTitle": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+        "climax": [
+          "電源"
+        ],
+        "cards": [
+          {
+            "name": "レインボーシフォン 百生 吟子",
+            "count": 1
+          },
+          {
+            "name": "Bloom the smile,Bloom the dream! 安養寺 姫芽",
+            "count": 2
+          },
+          {
+            "name": "みんなで叶える物語 大沢 瑠璃乃",
+            "count": 1
+          },
+          {
+            "name": "Dream Believers 藤島 慈",
+            "count": 4
+          },
+          {
+            "name": "レディバグ 夕霧 綴理",
+            "count": 1
+          },
+          {
+            "name": "節分 -艶- 藤島 慈",
+            "count": 4
+          },
+          {
+            "name": "抱きしめる花びら 夕霧 綴理",
+            "count": 1
+          },
+          {
+            "name": "Secret Christmas 藤島 慈",
+            "count": 4
+          },
+          {
+            "name": "ハクチューアラモード 大沢 瑠璃乃",
+            "count": 4
+          },
+          {
+            "name": "みらくりえーしょん/雅 安養寺 姫芽",
+            "count": 4
+          },
+          {
+            "name": "抱きしめる花びら 大沢 瑠璃乃",
+            "count": 4
+          },
+          {
+            "name": "Dream Believers 大沢 瑠璃乃",
+            "count": 4
+          },
+          {
+            "name": "PASSION!!!!!! 徒町 小鈴",
+            "count": 1
+          },
+          {
+            "name": "365 Days 藤島 慈",
+            "count": 1
+          },
+          {
+            "name": "Reflection in the mirror 日野下 花帆",
+            "count": 1
+          },
+          {
+            "name": "みんなで叶える物語 日野下 花帆",
+            "count": 1
+          },
+          {
+            "name": "みんなで叶える物語 徒町 小鈴",
+            "count": 4
+          },
+          {
+            "name": "ド！ド！ド！",
+            "count": 4
+          },
+          {
+            "name": "ハクチューアラモード",
+            "count": 4
+          }
+        ],
+        "team": 4
+      },
+      {
+        "rank": 3,
+        "deckTitle": "ミラー・ウォリアーズ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [
+          {
+            "name": "“ミラー・ウォリアーズ”ミニーマウス",
+            "count": 1
+          },
+          {
+            "name": "“Stellar-Powered Walking Disaster”グーフィー",
+            "count": 3
+          },
+          {
+            "name": "“Stellar Sorcerer”ミッキーマウス",
+            "count": 4
+          },
+          {
+            "name": "“Inventor of Holiday Spirit”ジャック・スケリントン",
+            "count": 1
+          },
+          {
+            "name": "“ミラー・ウォリアーズ”アナ",
+            "count": 2
+          },
+          {
+            "name": "“Master Mage of New Mushroomton High”イアン",
+            "count": 2
+          },
+          {
+            "name": "“ミラー・ウォリアーズ”ミッキーマウス",
+            "count": 4
+          },
+          {
+            "name": "“Heart's Fire Fighter”ミニーマウス",
+            "count": 4
+          },
+          {
+            "name": "“Fiery Arbiter of Justice”イカリ",
+            "count": 4
+          },
+          {
+            "name": "“Explorer Mage”ベル",
+            "count": 3
+          },
+          {
+            "name": "“Curse Collector”ジャック・スパロウ",
+            "count": 4
+          },
+          {
+            "name": "“A Forcefield for Justice”ヴァイオレット",
+            "count": 4
+          },
+          {
+            "name": "“ミラー・ウォリアーズ”ドリー",
+            "count": 4
+          },
+          {
+            "name": "“Commander of the Underworld”ハデス",
+            "count": 2
+          },
+          {
+            "name": "Mirror Master",
+            "count": 4
+          },
+          {
+            "name": "Cosmic Command",
+            "count": 4
+          }
+        ],
+        "team": 4
+      }
+    ],
+    "sourceUrl": "https://x.com/FLAME_CUP_unei/status/2098713774433968395?s=20"
   }
 ]
