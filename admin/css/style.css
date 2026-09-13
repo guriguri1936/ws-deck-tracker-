@@ -118,10 +118,11 @@ input, select, textarea {
 }
 
 .result-tier {
-  border: 1px solid var(--border);
+  border: 1px solid #b8c0d6;
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 12px;
+  background: #fff;
 }
 
 .result-tier h3 {
@@ -134,18 +135,19 @@ input, select, textarea {
 .top4-units { display: flex; flex-direction: column; gap: 10px; margin-bottom: 8px; }
 
 .top4-single-unit {
-  border: 1px dashed var(--border);
+  border: 1px solid #c7cee0;
   border-radius: 8px;
   padding: 10px;
+  background: #f5f6fb;
 }
 
 .top4-single-unit > .btn-danger { margin-top: 8px; }
 
 .team-group {
-  border: 1px solid var(--border);
+  border: 1px solid #9aa7d6;
   border-radius: 8px;
   padding: 10px;
-  background: #fafbff;
+  background: #ebeffb;
 }
 
 .team-group-header {
@@ -158,7 +160,7 @@ input, select, textarea {
 }
 
 .player-slot {
-  border: 1px dashed var(--border);
+  border: 1px solid #c7cee0;
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 8px;
