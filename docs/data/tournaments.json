@@ -10204,5 +10204,141 @@
       }
     ],
     "sourceUrl": "https://x.com/FLAME_CUP_unei/status/2098713774433968395?s=20"
+  },
+  {
+    "id": "2026-09-12-003",
+    "eventName": "NEXUSCS（コスト制トリオ）",
+    "date": "2026-09-12",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSBNQljbcAA81hk?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "ゆるキャン△",
+        "climax": [
+          "扉",
+          "宝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSBNQlWbMAI4Mn9?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "パズル＆ドラゴンズ",
+        "climax": [
+          "扉",
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSBNQlZagAAvg-p?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉",
+          "宝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOChZaoAAC4uk?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アイドルマスター シャイニーカラーズ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOChaa0AAuy3j?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "STAR WARS",
+        "climax": [
+          "門",
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOChdakAA3p3v?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOgWeawAAyxwJ?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "彼女、お借りします",
+        "climax": [
+          "門",
+          "+2"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOgWgbYAAaMAp?format=jpg&name=small"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "無職転生 ～異世界行ったら本気だす～",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSBOgWebAAAYU6n?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "葬送のフリーレン",
+        "climax": [
+          "フォーカス"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSBO8nNacAAAE7L?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "勝利の女神：NIKKE",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSBO8nQbwAA9Ixq?format=jpg&name=small"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "ぼっち・ざ・ろっく！",
+        "climax": [
+          "扉",
+          "宝"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSBO8nAbgAEydYV?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/komarinn0405/status/2098762385817546950?s=20"
   }
 ]

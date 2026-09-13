@@ -485,5 +485,59 @@
       "門"
     ],
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/r/rz_s116/rz_s116_049.png"
+  },
+  {
+    "title": "ゆるキャン△",
+    "climax": [
+      "扉",
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/y/yrc_w116/yrc_w116_031.png"
+  },
+  {
+    "title": "パズル＆ドラゴンズ",
+    "climax": [
+      "扉",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/pad_s105/pad_s105_002.png"
+  },
+  {
+    "title": "STAR WARS",
+    "climax": [
+      "門",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dds_s104/dsw_s104_002.png"
+  },
+  {
+    "title": "彼女、お借りします",
+    "climax": [
+      "門",
+      "+2"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/k/knk_w132/knk_w132_023.png"
+  },
+  {
+    "title": "無職転生 ～異世界行ったら本気だす～",
+    "climax": [
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/m/mti_s83/mti_s83_053.png"
+  },
+  {
+    "title": "勝利の女神：NIKKE",
+    "climax": [
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/n/nik_s117/nik_s117_060.png"
+  },
+  {
+    "title": "ぼっち・ざ・ろっく！",
+    "climax": [
+      "扉",
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/btr_w107/btr_w107_038.png"
   }
 ]
