@@ -10737,5 +10737,615 @@
       }
     ],
     "sourceUrl": "https://x.com/fukufuku_ws/status/2099075207168499761?s=20"
+  },
+  {
+    "id": "2026-09-19-001",
+    "eventName": "第2１回天井杯",
+    "date": "2026-09-19",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "アニメ プリンセスコネクト！Re:Dive",
+        "climax": [
+          "宝",
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSkQkekaMAAf5QD?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "怪獣８号",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSkQkeEbsAABzhx?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アイドルマスター シャイニーカラーズ",
+        "climax": [
+          "門",
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSkQkeDaYAAY11l?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "転生したらスライムだった件",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSkRB5FakAAlckx?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSkRB5LaAAAL4BZ?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アイドルマスター シャイニーカラーズ",
+        "climax": [
+          "門",
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSkRB5GaUAAde4k?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSkUbc4aMAADUMk?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "転生したらスライムだった件",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSkUbdFaQAAoE10?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSkUbc8aoAAOYxK?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "勝利の女神：NIKKE",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSkU237aMAAtANG?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSkU23_bcAA7D82?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSkU24QbEAAmP4i?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/10Jo_ceiling/status/2101228948097232926?s=20"
+  },
+  {
+    "id": "2026-09-20-001",
+    "eventName": "第114回福福杯",
+    "date": "2026-09-20",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJFf_aEAAYeIy?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "「青春ブタ野郎」シリーズ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJFgIacAAuVkB?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "ダ・カーポ＆Dal Segno",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJFf8bMAA79h2?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJHmjasAEpHGG?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJHpFawAAHC_7?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "GA文庫",
+        "climax": [
+          "門",
+          "電源"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJHpGaEAA8M0j?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJIfuaoAAvId-?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJIf0b0AAAeX6?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJIgDaAAAyr8F?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJJUUaoAAoygq?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJJUSaEAAlZlU?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "葬送のフリーレン",
+        "climax": [
+          "フォーカス"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSqJJUSbsAAd_s0?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/fukufuku_ws/status/2101642931618926706?s=20"
+  },
+  {
+    "id": "2026-09-20-002",
+    "eventName": "第10回タッチWSCS(トリオ)",
+    "date": "2026-09-20",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "ダンダダン",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpP9H6aIAAkgkr?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpP9H9a0AAXulF?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpP9H1awAA-tBo?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "ブルーアーカイブ",
+        "climax": [
+          "ショット"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpSpGSb0AAVb2D?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpSpGTakAA80Is?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpSpGRbcAA8Ti-?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/touchxxKDT/status/2101580193135473040?s=20"
+  },
+  {
+    "id": "2026-09-20-003",
+    "eventName": "第14回ヴァイスシュヴァルツ香川CS",
+    "date": "2026-09-20",
+    "organizerType": "individual",
+    "tournamentFormat": "single",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "本"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSp2jAZagAAPf46?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSp2juaaYAEjjgz?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "東方Project",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSp2kdjbQAAbPv5?format=jpg&name=4096x4096"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "photoUrl": "https://pbs.twimg.com/media/HSp2lPdakAAbKNK?format=jpg&name=4096x4096"
+      }
+    ],
+    "sourceUrl": "https://x.com/wskagawacs1/status/2101622527529484684?s=20"
+  },
+  {
+    "id": "2026-09-20-004",
+    "eventName": "第28回餅CS",
+    "date": "2026-09-20",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "東京リベンジャーズ",
+        "climax": [],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeKt3bwAAYmrD?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeKttbYAAUYVt?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "ダンダダン",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeKt5aUAAMnhd?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "勝利の女神：NIKKE",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeL_Ma4AA-7qB?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Re:ゼロから始める異世界生活",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeL_YawAAgCXM?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "怪獣８号",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeL_PaUAAF8-L?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeNCNa8AABd85?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeNCUasAAAwt6?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeNCGbwAEUWw8?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "グランブルーファンタジー",
+        "climax": [
+          "扉",
+          "宝"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeOKKaYAAqLvl?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "転生したらスライムだった件",
+        "climax": [
+          "門"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeOKJaEAAHVGG?format=jpg&name=medium"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "学園アイドルマスター",
+        "climax": [
+          "扉",
+          "門"
+        ],
+        "cards": [],
+        "team": 4,
+        "photoUrl": "https://pbs.twimg.com/media/HSpeOKKbMAAAKti?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/moti_cs_/status/2101595730708418714?s=20"
+  },
+  {
+    "id": "2026-09-20-005",
+    "eventName": "第29回　キズナ杯",
+    "date": "2026-09-20",
+    "organizerType": "individual",
+    "tournamentFormat": "trio",
+    "results": [
+      {
+        "rank": 1,
+        "deckTitle": "アサルトリリィ",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfYIIaEAAbzLi?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "アズールレーン",
+        "climax": [
+          "宝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfYIAbAAAp4AS?format=jpg&name=large"
+      },
+      {
+        "rank": 1,
+        "deckTitle": "GA文庫",
+        "climax": [
+          "枝"
+        ],
+        "cards": [],
+        "team": 1,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfYIEasAE2rcn?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "Summer Pockets",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfS1fboAAt3Jr?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "アイドルマスター シンデレラガールズ",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfS1fboAAt3Jr?format=jpg&name=large"
+      },
+      {
+        "rank": 2,
+        "deckTitle": "【推しの子】",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 2,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfS1Qa8AApZ9_?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "怪獣８号",
+        "climax": [
+          "扉"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfGtSboAA9pXS?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "オーバーロード",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfGtZakAAr0BV?format=jpg&name=large"
+      },
+      {
+        "rank": 3,
+        "deckTitle": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ",
+        "climax": [
+          "電源"
+        ],
+        "cards": [],
+        "team": 3,
+        "photoUrl": "https://pbs.twimg.com/media/HSpfGtWa0AA6R8x?format=jpg&name=large"
+      }
+    ],
+    "sourceUrl": "https://x.com/kizunahi_ijanai/status/2101597050316243187?s=20"
   }
 ]

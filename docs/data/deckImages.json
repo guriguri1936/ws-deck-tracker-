@@ -582,5 +582,40 @@
       "門"
     ],
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/i/imc_we51/imc_we51_65.png"
+  },
+  {
+    "title": "アニメ プリンセスコネクト！Re:Dive",
+    "climax": [
+      "宝",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/p/prd_w100/prd_w100_002.png"
+  },
+  {
+    "title": "GA文庫",
+    "climax": [
+      "門",
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/ga_s131/ga19_s131_101.png"
+  },
+  {
+    "title": "ブルーアーカイブ",
+    "climax": [
+      "ショット"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bav_w129/bav_w129_004.png"
+  },
+  {
+    "title": "東京リベンジャーズ",
+    "climax": [],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/trv_s92/trv_s92_t19r.png"
+  },
+  {
+    "title": "アズールレーン",
+    "climax": [
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/azl_s119/azl_s119_043.png"
   }
 ]
