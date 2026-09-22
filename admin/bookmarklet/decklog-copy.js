@@ -25,6 +25,18 @@
     return "";
   }
 
+  /* デッキログのimg altテキストは、カード名中の引用符(“ ”)がシングルクオート(')に
+     化けていることがある(例: 「'最高に素敵な一枚' 瑞花」正しくは「“最高に素敵な一枚” 瑞花」)。
+     名前中にシングルクオートがちょうど2つある場合のみ、対になった引用符とみなして
+     全角の引用符に補正する(「'24」のような単独アポストロフィの年表記は対象外)。 */
+  function fixMojibakeQuotes(name) {
+    var quoteCount = (name.match(/'/g) || []).length;
+    if (quoteCount !== 2) return name;
+    var first = name.indexOf("'");
+    var second = name.indexOf("'", first + 1);
+    return name.slice(0, first) + "“" + name.slice(first + 1, second) + "”" + name.slice(second + 1);
+  }
+
   function extractCards() {
     var items = document.querySelectorAll(".card-item");
     var cards = [];
@@ -32,7 +44,7 @@
       var img = item.querySelector("img.card-view-item");
       var numEl = item.querySelector(".card-controller-inner .num");
       if (!img || !numEl) return;
-      var name = (img.getAttribute("alt") || "").trim();
+      var name = fixMojibakeQuotes((img.getAttribute("alt") || "").trim());
       var count = parseInt(numEl.textContent.trim(), 10);
       if (!name || !count) return;
       cards.push({ name: name, count: count });
