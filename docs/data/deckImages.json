@@ -617,5 +617,66 @@
       "宝"
     ],
     "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/a/azl_s119/azl_s119_043.png"
+  },
+  {
+    "title": "グランブルーファンタジー",
+    "climax": [
+      "扉",
+      "門"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/gbf_s134/gbf_s134_089.png"
+  },
+  {
+    "title": "ラブライブ！サンシャイン!!",
+    "climax": [
+      "電源",
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/l/lss_we27/lss_we27_21.png"
+  },
+  {
+    "title": "BanG Dream!",
+    "climax": [
+      "門"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/bd_w125/bd_w125_071s.png"
+  },
+  {
+    "title": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン",
+    "climax": [
+      "扉",
+      "宝",
+      "電源"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/g/ggo_se50/ggo_se50_20.png"
+  },
+  {
+    "title": "ダ・カーポ＆Dal Segno",
+    "climax": [
+      "宝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/d/dc_w128/dc_w128_028.png"
+  },
+  {
+    "title": "五等分の花嫁",
+    "climax": [
+      "門"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/5/5hy_w101/5hy_w101_079.png"
+  },
+  {
+    "title": "ブラウンダスト2",
+    "climax": [
+      "門",
+      "フォーカス"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/b/brd_w139/brd_w139_076.png"
+  },
+  {
+    "title": "東方Project",
+    "climax": [
+      "枝"
+    ],
+    "imageUrl": "https://ws-tcg.com/wordpress/wp-content/images/cardlist/t/thp_s130/thp_s130_003.png"
   }
 ]
