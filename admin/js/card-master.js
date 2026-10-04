@@ -15,7 +15,7 @@ var cmState = {
 };
 
 function cmNormalizeName(name) {
-  return String(name || "").replace(/[ 　\t]+/g, " ").trim();
+  return String(name || "").replace(/[ 　\t]+/g, " ").trim().replace(/[“”＂]/g, '"');
 }
 
 function cmTypeLabel(type) {
@@ -62,7 +62,15 @@ function parseCmBulkText(text) {
     var line = raw.trim();
     if (!line || line.charAt(0) === "#") return;
 
-    var cols = line.indexOf("\t") !== -1 ? line.split("\t") : line.split(",");
+    var cols;
+    if (line.indexOf("\t") !== -1) {
+      cols = line.split("\t");
+    } else {
+      /* カード名内のカンマを保持するため、種別列を境界として読み取る。
+         画像URL内のカンマも末尾列の一部として保持する。 */
+      var csvMatch = line.match(/^(.+),\s*(character|event|climax|キャラ|イベント|クライマックス)\s*,([^,]*)(?:,(.*))?$/);
+      cols = csvMatch ? [csvMatch[1], csvMatch[2], csvMatch[3], csvMatch[4] || ""] : line.split(",");
+    }
     cols = cols.map(function (c) { return c.trim(); });
 
     var name = cmNormalizeName(cols[0]);

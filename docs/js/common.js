@@ -31,7 +31,7 @@ function normalizeTitle(title) {
 }
 
 function normalizeCardName(name) {
-  return normalizeTitle(name);
+  return normalizeTitle(name).replace(/[“”＂]/g, '"');
 }
 
 function safeDivide(numerator, denominator) {
@@ -157,11 +157,12 @@ function buildCardMap(cards) {
   (Array.isArray(cards) ? cards : []).forEach(function (entry) {
     var name = normalizeCardName(entry.name);
     if (!name) return;
+    var existing = map[name] || {};
     map[name] = {
-      type: entry.type || "",
-      level: (entry.level === null || entry.level === undefined || entry.level === "") ? null : Number(entry.level),
-      climaxType: entry.climaxType || "",
-      imageUrl: isHttpUrl(entry.imageUrl) ? entry.imageUrl : ""
+      type: entry.type || existing.type || "",
+      level: (entry.level === null || entry.level === undefined || entry.level === "") ? (existing.level === undefined ? null : existing.level) : Number(entry.level),
+      climaxType: entry.climaxType || existing.climaxType || "",
+      imageUrl: isHttpUrl(entry.imageUrl) ? entry.imageUrl : (existing.imageUrl || "")
     };
   });
   return map;

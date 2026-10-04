@@ -3,7 +3,7 @@
  * 一覧ページのDOM内には、画面上は非表示のテキスト版リスト(#js-cardListText)が常に存在し、
  * そこに表示中の全カードの「カード名・種類・レベル・画像URL」が最初から入っている。
  * モーダルを1枚ずつ開かなくても、このリストを読み取るだけで一覧ページの全カードを
- * 一括でカードマスタ管理タブの一括登録欄向けの形式(カンマ区切り)に変換できる。
+ * 一括でカードマスタ管理タブの一括登録欄向けの形式(タブ区切り)に変換できる。
  *
  * 絞り込み条件を変えたりページを送ったりして一覧の中身が変化した場合にも追従できるよう、
  * リストの変化をMutationObserverで監視し、新しく現れたカードを自動で追記する。
@@ -105,7 +105,7 @@
 
       var climaxType = plusTwoTrigger ? "+2" : (TRIGGER_ICON_TO_CLIMAX_TYPE[triggerIcon] || "");
       var third = kind === "クライマックス" ? climaxType : level;
-      results.push({ name: name, line: [name, kind, third, imageUrl].join(",") });
+      results.push({ name: name, line: [name, kind, third, imageUrl].join("\t") });
     }
     return results;
   }
